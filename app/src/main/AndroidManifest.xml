@@ -21,6 +21,30 @@
         <activity
             android:name=".Katalog.katalog1"
             android:label="@string/title_activity_katalog1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog6"
+            android:label="@string/title_activity_katalog6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog7"
+            android:label="@string/title_activity_katalog7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog8"
+            android:label="@string/title_activity_katalog8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog9"
+            android:label="@string/title_activity_katalog9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog10"
+            android:label="@string/title_activity_katalog10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog11"
+            android:label="@string/title_activity_katalog11"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
