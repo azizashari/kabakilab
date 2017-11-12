@@ -9,7 +9,10 @@ import android.text.SpannableString;
 import android.text.style.StyleSpan;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
 
 import mazizashari.kabakilab.Katalog.katalog;
 
@@ -19,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //ImageView logoLogin = (ImageView) findViewById(R.id.logoLogin);
+
+        //Glide.with(this).load(R.drawable.logomini).into(logoLogin);
 
         Button bMulai = (Button) findViewById(R.id.bMulai);
 
