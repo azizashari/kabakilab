@@ -1,16 +1,37 @@
 <resources>
     <string name="app_name">KABAKI LAB</string>
+    <string name="action_settings">Settings</string>
     <string name="title_activity_katalog1">katalog1</string>
+    <string name="title_activity_katalog2">katalog2</string>
+    <string name="title_activity_katalog3">katalog3</string>
+    <string name="title_activity_katalog4">katalog4</string>
+    <string name="title_activity_katalog5">katalog5</string>
+    <string name="title_activity_katalog6">katalog6</string>
+    <string name="title_activity_katalog7">katalog7</string>
+    <string name="title_activity_katalog8">katalog8</string>
+    <string name="title_activity_katalog9">katalog9</string>
+    <string name="title_activity_katalog10">katalog10</string>
+    <string name="title_activity_katalog11">katalog11</string>
+    <string name="title_activity_katalog12">katalog12</string>
+    <string name="title_activity_katalog13">katalog13</string>
+    <string name="title_activity_katalog14">katalog14</string>
+    <string name="title_activity_katalog15">katalog15</string>
+    <string name="title_activity_katalog16">katalog16</string>
+    <string name="title_activity_katalog17">katalog17</string>
+    <string name="title_activity_katalog18">katalog18</string>
+    <string name="title_activity_katalog19">katalog19</string>
+    <string name="title_activity_katalog20">katalog20</string>
+    <string name="title_activity_katalog21">katalog21</string>
+    <string name="title_activity_katalog22">katalog22</string>
+    <string name="title_activity_katalog23">katalog23</string>
+    <string name="title_activity_katalog24">katalog24</string>
+    <string name="title_activity_katalog25">katalog25</string>
+    <string name="title_activity_katalog26">katalog26</string>
+    <string name="title_activity_katalog27">katalog27</string>
+    <string name="title_activity_katalog28">katalog28</string>
+    <string name="title_activity_katalog29">katalog29</string>
+    <string name="title_activity_katalog30">katalog30</string>
     <string name="large_text">
-
-        "1.	Boric Acid/H3BO3\n"
-        "	Lokasi\n"
-		"  Lemari A1\n"
-        "*	Spesifikasi\n"
-		"  Pro Analysis\n"
-        "*	Merek\n"
-		"  Merck\n\n"
-
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -100,5 +121,4 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
 
-    <string name="action_settings">Settings</string>
 </resources>

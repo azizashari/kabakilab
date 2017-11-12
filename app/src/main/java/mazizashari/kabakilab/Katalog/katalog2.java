@@ -15,19 +15,17 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import mazizashari.kabakilab.MainActivity;
 import mazizashari.kabakilab.R;
 
-public class katalog1 extends AppCompatActivity {
+public class katalog2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_katalog1);
+        setContentView(R.layout.activity_katalog2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /*Floating image*/
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,7 +35,7 @@ public class katalog1 extends AppCompatActivity {
             }
         });
 
-      /*  String boldText = " \n";
+         /*  String boldText = " \n";
         String normalText = " ";
         SpannableString str = new SpannableString(boldText + normalText);
         str.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -45,8 +43,8 @@ public class katalog1 extends AppCompatActivity {
         textView1.setText(str);
         */
 
-       /* TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("1.\tBoric Acid/H3BO3p");*/
+        /* TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText("2.Calcium Chloride/CaCl2");*/
 
         String boldText = "Lokasi\n";
         String normalText = "Lemari A1";
@@ -83,9 +81,9 @@ public class katalog1 extends AppCompatActivity {
         textView6.setText("* Skala bahaya");
 
         TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("- Bahaya kesehatan : 1\n" +
+        textView7.setText("- Bahaya kesehatan : 2\n" +
                 "- Bahaya kemudahan terbakar : 0\n"+
-                "- Bahaya reaktivitas : 0\n" +
+                "- Bahaya reaktivitas : 1\n" +
                 "- Bahaya khusus lainnya : -");
 
         String boldText8 = "Pertolongan pertama pada kecelakaan\n";
@@ -114,7 +112,7 @@ public class katalog1 extends AppCompatActivity {
         textView14.setText("* Jika tertelan");
 
         TextView textView15 = (TextView) findViewById(R.id.textView15);
-        textView15.setText("- Pindahkan korban ke udara segar. Jika sulit bernapas, berikan oksigen. Jika tidak bernapas, berikan pernapasan buatan. Segera hubungi medis.\n" +
+        textView15.setText("- Jangan memaksakan untuk muntah kecuali jika diarahkan oleh petugas medis. Jangan memberikan apapun melalui mulut apabila korban dalam keadaan tidak sadarkan diri. Longgarkan pakaian korban seperti kerah, dasi dan ikat pinggang.\n" +
                 "- Jika tertelan dalam jumlah yang banyak, segera hubungi medis");
 
         String boldText16 = "Penanganan dan penyimpanan bahan";
@@ -128,7 +126,7 @@ public class katalog1 extends AppCompatActivity {
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
                 "- Simpan ditempat yang tertutup dan kering.\n" +
-                "- Jauhkan dari zat alkali.");
+                "- Jauhkan dari uap air.\n");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -139,4 +137,5 @@ public class katalog1 extends AppCompatActivity {
         }
         return false;
     }
+
 }
