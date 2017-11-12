@@ -2,6 +2,15 @@
     <string name="app_name">KABAKI LAB</string>
     <string name="title_activity_katalog1">katalog1</string>
     <string name="large_text">
+
+        "1.	Boric Acid/H3BO3\n"
+        "	Lokasi\n"
+		"  Lemari A1\n"
+        "*	Spesifikasi\n"
+		"  Pro Analysis\n"
+        "*	Merek\n"
+		"  Merck\n\n"
+
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -90,5 +99,6 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
     <string name="action_settings">Settings</string>
 </resources>
