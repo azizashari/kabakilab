@@ -25,7 +25,7 @@
                 android:layout_margin="3sp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:textSize="15sp"><!--android:text="@string/large_text">-->
+                android:textSize="15sp">
             </TextView>
 
             <TextView
