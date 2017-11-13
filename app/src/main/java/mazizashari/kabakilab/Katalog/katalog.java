@@ -22,12 +22,11 @@ public class katalog extends AppCompatActivity {
         bPilih.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(katalog.this,katalog31.class);
+                Intent intent = new Intent(katalog.this,katalog41.class);
                 startActivity(intent);
                 finish();
             }
         });
-
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {

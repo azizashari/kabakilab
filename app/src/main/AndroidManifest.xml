@@ -125,6 +125,46 @@
         <activity
             android:name=".Katalog.katalog31"
             android:label="@string/title_activity_katalog31"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog32"
+            android:label="@string/title_activity_katalog32"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog33"
+            android:label="@string/title_activity_katalog33"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog34"
+            android:label="@string/title_activity_katalog34"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog35"
+            android:label="@string/title_activity_katalog35"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog36"
+            android:label="@string/title_activity_katalog36"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog37"
+            android:label="@string/title_activity_katalog37"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog38"
+            android:label="@string/title_activity_katalog38"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog39"
+            android:label="@string/title_activity_katalog39"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog40"
+            android:label="@string/title_activity_katalog40"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog41"
+            android:label="@string/title_activity_katalog41"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
