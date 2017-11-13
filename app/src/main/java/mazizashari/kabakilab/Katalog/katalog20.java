@@ -17,12 +17,12 @@ import android.widget.TextView;
 
 import mazizashari.kabakilab.R;
 
-public class katalog11 extends AppCompatActivity {
+public class katalog20 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_katalog11);
+        setContentView(R.layout.activity_katalog20);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -34,7 +34,7 @@ public class katalog11 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-       /*  String boldText = " \n";
+        /*  String boldText = " \n";
         String normalText = " ";
         SpannableString str = new SpannableString(boldText + normalText);
         str.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -43,7 +43,7 @@ public class katalog11 extends AppCompatActivity {
         */
 
         /* TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("11.Potassium Chloride/KCl);*/
+        textView.setText("20.Ammonium sulfate/(NH4)2SO4);*/
 
         String boldText = "Lokasi\n";
         String normalText = "Lemari A1";
@@ -60,7 +60,7 @@ public class katalog11 extends AppCompatActivity {
         textView2.setText(Html.fromHtml("<b>Spesifikasi</b> <br/> <i>Pro Analysis</i>"));
 
         String boldText3 = "Merek\n";
-        String normalText3 = "Pudak Scientific";
+        String normalText3 = "Scharlau";
         SpannableString str3 = new SpannableString(boldText3 + normalText3);
         str3.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText3.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView3 = (TextView) findViewById(R.id.textView3);
@@ -74,14 +74,13 @@ public class katalog11 extends AppCompatActivity {
         textView4.setText(str4);
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        textView5.setText("- Sedikit berbahaya jika terjadi kontak dengan kulit, mata, saluran pencernaan dan saluran pernapasan.");
-
+        textView5.setText("- Berbahaya jika terjadi kontak dengan kulit, mata, saluran pernapasan dan saluran pencernaan. ");
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
 
         TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("- Bahaya kesehatan : 1\n" +
-                "- Bahaya kemudahan terbakar : 0\n"+
+        textView7.setText("- Bahaya kesehatan : 2\n" +
+                "- Bahaya kemudahan terbakar : 1\n"+
                 "- Bahaya reaktivitas : 0\n" +
                 "- Bahaya khusus lainnya : -");
 
@@ -99,7 +98,7 @@ public class katalog11 extends AppCompatActivity {
         textView10.setText("* Jika terkena kulit");
 
         TextView textView11 = (TextView) findViewById(R.id.textView11);
-        textView11.setText("- Segera basuh dengan banyak air. Lepas pakaian dan sepatu yang terkena bahan kimia. Bersihkan pakaian dan sepatu apabila akan digunakan kembali. Segera hubungi medis.- Lepaskan segera pakaian yang terkena bahan kimia. Apabila bahan kimia mengenai badan korban, segera letakkan korban di bawah pancuran air. Apabila mengenai kulit tangan, bilas tangan dengan air yang mengalir. Bersihkan sela-sela dan lipatan tangan dengan hati-hati. Dapat menggunakan air dingin. Jika terjadi iritasi, segera hubungi medis. Bersihkan pakaian dan sepatu apabila akan digunakan kembali. Segera hubungi medis.");
+        textView11.setText("- Segera basuh dengan banyak air. Lepas pakaian dan sepatu yang terkena bahan kimia. Bersihkan pakaian dan sepatu apabila akan digunakan kembali. Segera hubungi medis.");
 
         TextView textView12 = (TextView) findViewById(R.id.textView12);
         textView12.setText("* Jika terhirup");
@@ -124,7 +123,9 @@ public class katalog11 extends AppCompatActivity {
         TextView textView17 = (TextView) findViewById(R.id.textView17);
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
                 "- Jaga wadah bahan kimia agar tetap kering.\n " +
-                "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n");
+                "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
+                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup.\n" +
+                "- Jauhkan dari zat pengoksidasi.");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
