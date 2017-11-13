@@ -89,6 +89,42 @@
         <activity
             android:name=".Katalog.katalog22"
             android:label="@string/title_activity_katalog22"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog23"
+            android:label="@string/title_activity_katalog23"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog24"
+            android:label="@string/title_activity_katalog24"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog25"
+            android:label="@string/title_activity_katalog25"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog26"
+            android:label="@string/title_activity_katalog26"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog27"
+            android:label="@string/title_activity_katalog27"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog28"
+            android:label="@string/title_activity_katalog28"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog29"
+            android:label="@string/title_activity_katalog29"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog30"
+            android:label="@string/title_activity_katalog30"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog31"
+            android:label="@string/title_activity_katalog31"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

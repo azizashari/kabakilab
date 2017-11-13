@@ -17,12 +17,12 @@ import android.widget.TextView;
 
 import mazizashari.kabakilab.R;
 
-public class katalog22 extends AppCompatActivity {
+public class katalog23 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_katalog22);
+        setContentView(R.layout.activity_katalog23);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -43,10 +43,10 @@ public class katalog22 extends AppCompatActivity {
         */
 
         /* TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("22.Hydrochloric acid/HCl);*/
+        textView.setText("23.Alfa-Naphthol / α- C10H7OH);*/
 
         String boldText = "Lokasi\n";
-        String normalText = "Laboratorium Pengawasan Mutu";
+        String normalText = "Lemari A2";
         SpannableString str = new SpannableString(boldText + normalText);
         str.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView1 = (TextView) findViewById(R.id.textView1);
@@ -75,19 +75,17 @@ public class katalog22 extends AppCompatActivity {
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
         textView5.setText("- Sangat berbahaya sekali jika terjadi kontak dengan kulit, mata, saluran pencernaan.\n" +
-                "- Sedikit berbahaya jika terjadi kontak dengan saluran pernapasan. Tidak korosif terhadap paru-paru. \n" +
-                "- Cairan bahan kimia dapat menyebabkan kerusakan jaringan pada membran mokus pada mata, mulut dan saluran pernapasan. Kontak dengan kulit dapat menyebabkan kulit terbakar. \n" +
-                "- Jika terhirup akan menyebabkan iritasi pada saluran pencernaan dan saluran pernapasan seperti bersin, batuk dan napas pendek.\n" +
-                "- Jika terpapar dalam jumlah yang banyak dapat menyebabkan kematian.\n" +
-                "- Peradangan pada kulit ditandai dengan kulit kemerahan, gatal dan melepuh. \n" +
-                "- Peradangan pada mata ditandai dengan mata kemerahan, berair dan gatal.");
+                "- Sedikit berbahaya jika terjadi kontak dengan saluran pernapasan.\n" +
+                "- Dapat menyebabkan iritasi pada mata, kulit, berbahaya apabila terhirup dan paling bahaya yaitu dapat menyebabkan kematian.\n" +
+                "- Peradangan pada mata ditandai dengan kemerahan,berair dan gatal. \n" +
+                "- Peradangan pada kulit ditandai dengan gatal, kemerahan dan melepuh.");
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
 
         TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("- Bahaya kesehatan : 3\n" +
-                "- Bahaya kemudahan terbakar : 0\n"+
-                "- Bahaya reaktivitas : 2\n" +
+        textView7.setText("- Bahaya kesehatan : 2\n" +
+                "- Bahaya kemudahan terbakar : 1\n"+
+                "- Bahaya reaktivitas : 0\n" +
                 "- Bahaya khusus lainnya : -");
 
         String boldText8 = "Pertolongan pertama pada kecelakaan\n";
@@ -130,8 +128,8 @@ public class katalog22 extends AppCompatActivity {
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
                 "- Jaga wadah bahan kimia agar tetap kering dan tertutup rapat. Jauhkan dari panas, sumber api dan bahan yang mudah terbakar.\n " +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup.\n" +
-                "- Jauhkan dari zat pengoksidasi, material organik, pereduksi, logam, asam, alkali dan uap air.");
+                "- Jauhkan dari sumber panas dan api.\n" +
+                "- Simpan ditempat yang tertutup dan kering.");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
