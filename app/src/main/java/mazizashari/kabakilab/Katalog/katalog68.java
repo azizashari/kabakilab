@@ -127,8 +127,6 @@ public class katalog68 extends AppCompatActivity {
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
                 "- Simpan ditempat yang tertutup, kering dan berventilasi cukup. Bahan kimia bersifat higroskopis.\n" +
                 "- Jauhkan dari zat pengoksidasi,asam, dan alkali.");
-
-
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
