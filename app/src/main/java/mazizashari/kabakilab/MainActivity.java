@@ -23,9 +23,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //ImageView logoLogin = (ImageView) findViewById(R.id.logoLogin);
+        ImageView header = (ImageView) findViewById(R.id.header);
 
-        //Glide.with(this).load(R.drawable.logomini).into(logoLogin);
+        Glide.with(this).load(R.drawable.kabakilab).into(header);
+
+        ImageView logoupi = (ImageView) findViewById(R.id.upilogo);
+
+        Glide.with(this).load(R.drawable.upilogo).into(logoupi);
+
+        ImageView upi = (ImageView) findViewById(R.id.upi);
+
+        Glide.with(this).load(R.drawable.upi).into(upi);
 
         Button bMulai = (Button) findViewById(R.id.bMulai);
 
