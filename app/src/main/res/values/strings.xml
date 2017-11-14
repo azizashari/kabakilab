@@ -63,6 +63,11 @@
     <string name="title_activity_katalog60">katalog60</string>
     <string name="title_activity_katalog61">katalog61</string>
     <string name="large_text">
+        <![CDATA[
+        <u>underline</u><i>italic</i><b>bold!</b> normal<br/>
+        &emsp galihdwadwaj dandandnnsklndk nwiandlksankd lnwklndkankndkn skdnakndkwndnas lkndlkandwn
+        aidnslkdnland wandilandsklndk salndlknd<br/>
+        ]]>
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -158,5 +163,6 @@
     <string name="title_activity_katalog66">katalog66</string>
     <string name="title_activity_katalog67">katalog67</string>
     <string name="title_activity_katalog68">katalog68</string>
+    <string name="title_activity_list_reagen">ListReagen</string>
 
 </resources>

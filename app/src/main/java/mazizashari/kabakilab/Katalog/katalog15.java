@@ -16,8 +16,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import mazizashari.kabakilab.R;
+import mazizashari.kabakilab.ListReagen;
 
-public class katalog15 extends AppCompatActivity {
+ public class katalog15 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -132,7 +133,7 @@ public class katalog15 extends AppCompatActivity {
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            Intent i = new Intent(this, katalog.class);
+            Intent i = new Intent(this, ListReagen.class);
             startActivity(i);
             finish();
         }
