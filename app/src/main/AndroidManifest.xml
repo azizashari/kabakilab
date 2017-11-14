@@ -20,7 +20,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Petunjuk" />
         <activity android:name=".Katalog.katalog" />
         <activity
@@ -238,6 +238,46 @@
         <activity
             android:name=".Katalog.katalog58"
             android:label="@string/title_activity_katalog58"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog59"
+            android:label="@string/title_activity_katalog59"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog60"
+            android:label="@string/title_activity_katalog60"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog61"
+            android:label="@string/title_activity_katalog61"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog62"
+            android:label="@string/title_activity_katalog62"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog63"
+            android:label="@string/title_activity_katalog63"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog64"
+            android:label="@string/title_activity_katalog64"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog65"
+            android:label="@string/title_activity_katalog65"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog66"
+            android:label="@string/title_activity_katalog66"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog67"
+            android:label="@string/title_activity_katalog67"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog68"
+            android:label="@string/title_activity_katalog68"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

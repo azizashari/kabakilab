@@ -31,6 +31,37 @@
     <string name="title_activity_katalog28">katalog28</string>
     <string name="title_activity_katalog29">katalog29</string>
     <string name="title_activity_katalog30">katalog30</string>
+    <string name="title_activity_katalog31">katalog31</string>
+    <string name="title_activity_katalog32">katalog32</string>
+    <string name="title_activity_katalog33">katalog33</string>
+    <string name="title_activity_katalog34">katalog34</string>
+    <string name="title_activity_katalog35">katalog35</string>
+    <string name="title_activity_katalog36">katalog36</string>
+    <string name="title_activity_katalog37">katalog37</string>
+    <string name="title_activity_katalog38">katalog38</string>
+    <string name="title_activity_katalog39">katalog39</string>
+    <string name="title_activity_katalog40">katalog40</string>
+    <string name="title_activity_katalog41">katalog41</string>
+    <string name="title_activity_katalog42">katalog42</string>
+    <string name="title_activity_katalog43">katalog43</string>
+    <string name="title_activity_katalog44">katalog44</string>
+    <string name="title_activity_katalog45">katalog45</string>
+    <string name="title_activity_katalog46">katalog46</string>
+    <string name="title_activity_katalog47">katalog47</string>
+    <string name="title_activity_katalog48">katalog48</string>
+    <string name="title_activity_katalog49">katalog49</string>
+    <string name="title_activity_katlaog50">katlaog50</string>
+    <string name="title_activity_katalog51">katalog51</string>
+    <string name="title_activity_katalog52">katalog52</string>
+    <string name="title_activity_katalog53">katalog53</string>
+    <string name="title_activity_katalog54">katalog54</string>
+    <string name="title_activity_katalog55">katalog55</string>
+    <string name="title_activity_katalog56">katalog56</string>
+    <string name="title_activity_katalog57">katalog57</string>
+    <string name="title_activity_katalog58">katalog58</string>
+    <string name="title_activity_katalog59">katalog59</string>
+    <string name="title_activity_katalog60">katalog60</string>
+    <string name="title_activity_katalog61">katalog61</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -120,33 +151,12 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="title_activity_katalog31">katalog31</string>
-    <string name="title_activity_katalog32">katalog32</string>
-    <string name="title_activity_katalog33">katalog33</string>
-    <string name="title_activity_katalog34">katalog34</string>
-    <string name="title_activity_katalog35">katalog35</string>
-    <string name="title_activity_katalog36">katalog36</string>
-    <string name="title_activity_katalog37">katalog37</string>
-    <string name="title_activity_katalog38">katalog38</string>
-    <string name="title_activity_katalog39">katalog39</string>
-    <string name="title_activity_katalog40">katalog40</string>
-    <string name="title_activity_katalog41">katalog41</string>
-    <string name="title_activity_katalog42">katalog42</string>
-    <string name="title_activity_katalog43">katalog43</string>
-    <string name="title_activity_katalog44">katalog44</string>
-    <string name="title_activity_katalog45">katalog45</string>
-    <string name="title_activity_katalog46">katalog46</string>
-    <string name="title_activity_katalog47">katalog47</string>
-    <string name="title_activity_katalog48">katalog48</string>
-    <string name="title_activity_katalog49">katalog49</string>
-    <string name="title_activity_katlaog50">katlaog50</string>
-    <string name="title_activity_katalog51">katalog51</string>
-    <string name="title_activity_katalog52">katalog52</string>
-    <string name="title_activity_katalog53">katalog53</string>
-    <string name="title_activity_katalog54">katalog54</string>
-    <string name="title_activity_katalog55">katalog55</string>
-    <string name="title_activity_katalog56">katalog56</string>
-    <string name="title_activity_katalog57">katalog57</string>
-    <string name="title_activity_katalog58">katalog58</string>
+    <string name="title_activity_katalog62">katalog62</string>
+    <string name="title_activity_katalog63">katalog63</string>
+    <string name="title_activity_katalog64">katalog64</string>
+    <string name="title_activity_katalog65">katalog65</string>
+    <string name="title_activity_katalog66">katalog66</string>
+    <string name="title_activity_katalog67">katalog67</string>
+    <string name="title_activity_katalog68">katalog68</string>
 
 </resources>
