@@ -124,7 +124,7 @@ public class katalog68 extends AppCompatActivity {
 
         TextView textView17 = (TextView) findViewById(R.id.textView17);
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan).\n" +
-                "- Jaga wadah bahan kimia agar tetap kering. \n" +
+                "- Jaga wadah bahan kimia agar tetap kering.\n" +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
                 "- Simpan ditempat yang tertutup, kering dan berventilasi cukup. Bahan kimia bersifat higroskopis.\n" +
                 "- Jauhkan dari zat pengoksidasi,asam, dan alkali.");
