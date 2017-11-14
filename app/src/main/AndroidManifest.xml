@@ -170,6 +170,74 @@
         <activity
             android:name=".Katalog.katalog41"
             android:label="@string/title_activity_katalog41"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog42"
+            android:label="@string/title_activity_katalog42"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog43"
+            android:label="@string/title_activity_katalog43"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog44"
+            android:label="@string/title_activity_katalog44"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog45"
+            android:label="@string/title_activity_katalog45"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog46"
+            android:label="@string/title_activity_katalog46"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog47"
+            android:label="@string/title_activity_katalog47"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog48"
+            android:label="@string/title_activity_katalog48"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog49"
+            android:label="@string/title_activity_katalog49"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog50"
+            android:label="@string/title_activity_katlaog50"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog51"
+            android:label="@string/title_activity_katalog51"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog52"
+            android:label="@string/title_activity_katalog52"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog53"
+            android:label="@string/title_activity_katalog53"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog54"
+            android:label="@string/title_activity_katalog54"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog55"
+            android:label="@string/title_activity_katalog55"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog56"
+            android:label="@string/title_activity_katalog56"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog57"
+            android:label="@string/title_activity_katalog57"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog58"
+            android:label="@string/title_activity_katalog58"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

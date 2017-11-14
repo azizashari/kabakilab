@@ -17,12 +17,12 @@ import android.widget.TextView;
 
 import mazizashari.kabakilab.R;
 
-public class katalog41 extends AppCompatActivity {
+public class katalog45 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_katalog41);
+        setContentView(R.layout.activity_katalog45);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -34,7 +34,7 @@ public class katalog41 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        /*  String boldText = " \n";
+         /*  String boldText = " \n";
         String normalText = " ";
         SpannableString str = new SpannableString(boldText + normalText);
         str.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -43,10 +43,10 @@ public class katalog41 extends AppCompatActivity {
         */
 
         /* TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("41.Resorcinol/ C6H6O2);*/
+        textView.setText("45.	Asam Oksalat/H2C2O4);*/
 
         String boldText = "Lokasi\n";
-        String normalText = "Lemari A2";
+        String normalText = "Lemari A3";
         SpannableString str = new SpannableString(boldText + normalText);
         str.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView1 = (TextView) findViewById(R.id.textView1);
@@ -74,13 +74,16 @@ public class katalog41 extends AppCompatActivity {
         textView4.setText(str4);
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        textView5.setText("- Berbahaya jika terjadi kontak dengan mata, saluran pencernaan dan saluran pernapasan.\n" +
-                "- Sedikit berbahaya jika terjadi kontak dengan kulit.");
+        textView5.setText("- Sangat berbahaya jika terjadi kontak dengan mata dan saluran pencernaan.\n" +
+                "- Berbahaya jika terjadi kontak dengan mata dan saluran pernapasan. Jika terkena mata dapat menyebabkan kerusakan kornea dan kebutaan. \n" +
+                "- Jika terhirup akan menyebabkan iritasi pada saluran pencernaan dan pernapasan seperti bersin, batuk dan terasa seperti terbakar. \n" +
+                "- Paparan yang berlebihan dapat menyebabkan gangguan pernapasan dan kerusakan paru-paru.\n" +
+                "- Sedikit berbahaya jika terjadi kontak dengan kulit. Jika terkena kulit dapat menyebabkan peradangan.");
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
 
         TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("- Bahaya kesehatan : 2\n" +
+        textView7.setText("- Bahaya kesehatan : 3\n" +
                 "- Bahaya kemudahan terbakar : 1\n"+
                 "- Bahaya reaktivitas : 0\n" +
                 "- Bahaya khusus lainnya : -");
@@ -123,11 +126,11 @@ public class katalog41 extends AppCompatActivity {
         textView16.setText(str16);
 
         TextView textView17 = (TextView) findViewById(R.id.textView17);
-        textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
+        textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan).\n" +
+                "- Jaga wadah bahan kimia agar tetap kering. Jauhkan dari panas, sumber api dan bahan yang mudah terbakar.\n" +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Jauhkan dari sumber panas dan api\n" +
-                "- Simpan ditempat yang tertutup dan kering.\n" +
-                "- Jauhkan dari zat pengoksidasi dan asam.");
+                "- Simpan ditempat yang tertutup, kering, tidak tembus cahaya dan berventilasi cukup.\n" +
+                "- Pisahkan dari zat yang bersifat asam, alkali, zat pereduksi dan zat yang mudah terbakar.");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {

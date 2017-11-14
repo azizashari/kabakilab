@@ -17,12 +17,12 @@ import android.widget.TextView;
 
 import mazizashari.kabakilab.R;
 
-public class katalog41 extends AppCompatActivity {
+public class katalog49 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_katalog41);
+        setContentView(R.layout.activity_katalog49);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -43,10 +43,10 @@ public class katalog41 extends AppCompatActivity {
         */
 
         /* TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("41.Resorcinol/ C6H6O2);*/
+        textView.setText("49.	Citric Acid Monohydrate/C6H8O7.H2O");*/
 
         String boldText = "Lokasi\n";
-        String normalText = "Lemari A2";
+        String normalText = "Lemari A3";
         SpannableString str = new SpannableString(boldText + normalText);
         str.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView1 = (TextView) findViewById(R.id.textView1);
@@ -74,8 +74,10 @@ public class katalog41 extends AppCompatActivity {
         textView4.setText(str4);
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        textView5.setText("- Berbahaya jika terjadi kontak dengan mata, saluran pencernaan dan saluran pernapasan.\n" +
-                "- Sedikit berbahaya jika terjadi kontak dengan kulit.");
+        textView5.setText("- Berbahaya jika terjadi kontak dengan mata dan saluran pernapasan.\n" +
+                "- Sedikit berbahaya jika terjadi kontak dengan mata dan saluran pencernaan. \n" +
+                "- Jika terkena mata dapat menyebabkan kerusakan kornea dan kebutaan. \n" +
+                "- Paparan yang berlebihan dapat menyebabkan gangguan pernapasan dan kerusakan paru-paru.");
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
 
@@ -99,14 +101,13 @@ public class katalog41 extends AppCompatActivity {
         textView10.setText("* Jika terkena kulit");
 
         TextView textView11 = (TextView) findViewById(R.id.textView11);
-        textView11.setText("- Segera basuh dengan banyak air. Lepas pakaian dan sepatu yang terkena bahan kimia. Bersihkan pakaian dan sepatu apabila akan digunakan kembali. Segera hubungi medis.\n");
+        textView11.setText("- Segera basuh dengan banyak air dan sabun. Lepas pakaian dan sepatu yang terkena bahan kimia. Bersihkan pakaian dan sepatu apabila akan digunakan kembali. Segera hubungi medis.");
 
         TextView textView12 = (TextView) findViewById(R.id.textView12);
         textView12.setText("* Jika terhirup");
 
         TextView textView13 = (TextView) findViewById(R.id.textView13);
-        textView13.setText("- Pindahkan korban ke udara segar. Jika sulit bernapas, berikan oksigen. Jika tidak bernapas, berikan pernapasan buatan.Segera hubungi medis.\n" +
-                "- Perhatian : dapat menjadi bahaya bagi orang yang akan memberikan pertolongan pernapasan dari mulut ke mulut apabila bahan yang terhirup bersifat beracun, menyebabkan infeksi dan korosif.");
+        textView13.setText("- Pindahkan korban ke udara segar. Jika sulit bernapas, berikan oksigen. Jika tidak bernapas, berikan pernapasan buatan. Segera hubungi medis.");
 
         TextView textView14 = (TextView) findViewById(R.id.textView14);
         textView14.setText("* Jika tertelan");
@@ -123,10 +124,9 @@ public class katalog41 extends AppCompatActivity {
         textView16.setText(str16);
 
         TextView textView17 = (TextView) findViewById(R.id.textView17);
-        textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
+        textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan).\n" +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Jauhkan dari sumber panas dan api\n" +
-                "- Simpan ditempat yang tertutup dan kering.\n" +
+                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup. Bahan kimia bersifat higroskopis.\n" +
                 "- Jauhkan dari zat pengoksidasi dan asam.");
     }
 
