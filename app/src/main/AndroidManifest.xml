@@ -278,6 +278,10 @@
         <activity
             android:name=".Katalog.katalog68"
             android:label="@string/title_activity_katalog68"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.keterangan"
+            android:label="@string/title_activity_keterangan"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
