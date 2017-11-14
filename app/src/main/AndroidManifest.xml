@@ -205,6 +205,34 @@
         <activity
             android:name=".Katalog.katalog51"
             android:label="@string/title_activity_katalog51"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog52"
+            android:label="@string/title_activity_katalog52"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog53"
+            android:label="@string/title_activity_katalog53"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog54"
+            android:label="@string/title_activity_katalog54"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog55"
+            android:label="@string/title_activity_katalog55"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog56"
+            android:label="@string/title_activity_katalog56"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog57"
+            android:label="@string/title_activity_katalog57"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog58"
+            android:label="@string/title_activity_katalog58"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

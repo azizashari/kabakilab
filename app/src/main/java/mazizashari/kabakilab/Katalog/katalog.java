@@ -22,7 +22,7 @@ public class katalog extends AppCompatActivity {
         bPilih.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(katalog.this,katalog51.class);
+                Intent intent = new Intent(katalog.this,katalog58.class);
                 startActivity(intent);
                 finish();
             }
