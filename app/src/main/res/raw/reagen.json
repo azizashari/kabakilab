@@ -1,0 +1,120 @@
+{
+  "reagen": [
+    {
+      "namaReagen": "Boric Acid",
+      "rumusKimia": "H3BO3"
+    },
+    {
+      "namaReagen": "Calcium Chloride",
+      "rumusKimia": "CaCl2"
+    },
+    {
+      "namaReagen": "3,5-Dinitrosalicylic Acid",
+      "rumusKimia": "C7H4N2O7"
+    },
+    {
+      "namaReagen": "Iron (II) Chloride",
+      "rumusKimia": "FeCl2"
+    },
+    {
+      "namaReagen": "Iron (II) Sulfate Heptahydrate",
+      "rumusKimia": "FeSO4.7H2O"
+    },
+    {
+      "namaReagen": "Iron (III) Chloride",
+      "rumusKimia": "FeCl3"
+    },
+    {
+      "namaReagen": "Lead (II) Acetate Triydrate",
+      "rumusKimia": "Pb(CH3COO)2.3H2O"
+    },
+    {
+      "namaReagen": "Lithium Chloride",
+      "rumusKimia": "LiCl"
+    },
+    {
+      "namaReagen": "Magnesium Sulfate",
+      "rumusKimia": "MgSO4"
+    },
+    {
+      "namaReagen": "Mercury (II) Iodide",
+      "rumusKimia": "HgI2"
+    },
+    {
+      "namaReagen": "Potassium Chloride",
+      "rumusKimia": "KCl"
+    },
+    {
+      "namaReagen": "Potassium Dichromate",
+      "rumusKimia": "K2Cr2O7"
+    },
+    {
+      "namaReagen": "Potassium Oxalate",
+      "rumusKimia": "K2C2O4"
+    },
+    {
+      "namaReagen": "Potassium Sulfate",
+      "rumusKimia": "K2SO4"
+    },
+    {
+      "namaReagen": "Sodium Acetate Anhydrous",
+      "rumusKimia": "CH3COONa"
+    },
+    {
+      "namaReagen": "Sodium Acetate Trihydrate",
+      "rumusKimia": "CH3COONa.3H2O"
+    },
+    {
+      "namaReagen": "di-Sodium Hydrogen Phosphate",
+      "rumusKimia": "Na2HPO4"
+    },
+    {
+      "namaReagen": "di-Sodium Oxalate",
+      "rumusKimia": "(COO)2Na2"
+    },
+    {
+      "namaReagen": "Tri Sodium Citrate",
+      "rumusKimia": "C6H5Na3O7"
+    },
+    {
+      "namaReagen": "Natrium Hidroksida",
+      "rumusKimia": "NaOH"
+    },
+    {
+      "namaReagen": "Hydrochloric acid",
+      "rumusKimia": "HCl"
+    },
+    {
+      "namaReagen": "Ammonium sulfate",
+      "rumusKimia": "(NH4)2SO4"
+    },
+    {
+      "namaReagen": "Alfa-Naphthol",
+      "rumusKimia": "α- C10H7OH"
+    },
+    {
+      "namaReagen": "Barium Chloride",
+      "rumusKimia": "BaCl2"
+    },
+    {
+      "namaReagen": "Bromocresol Green",
+      "rumusKimia": "C21H14Br4O5S"
+    },
+    {
+      "namaReagen": "Bromothymol Blue",
+      "rumusKimia": "C27H28Br2O5S"
+    },
+    {
+      "namaReagen": "Calcium Chloride Dihydrate",
+      "rumusKimia": "CaCl2.2H2O"
+    },
+    {
+      "namaReagen": "Certistain",
+      "rumusKimia": "C44H37O27AlCa"
+    },
+    {
+      "namaReagen": "Cresol Red",
+      "rumusKimia": "C21H18O5S"
+    }
+  ]
+}

@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="backgroundSplash">#feeaca</color>
     <color name="backgroundButton">#46424242</color>
+    <color name="textColor">#ff2efc</color>
+    <color name="noColor">#fbd08b</color>
 </resources>

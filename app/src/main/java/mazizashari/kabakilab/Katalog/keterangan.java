@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import mazizashari.kabakilab.ListReagen;
 import mazizashari.kabakilab.R;
 
 public class keterangan extends AppCompatActivity {
@@ -107,7 +108,7 @@ public class keterangan extends AppCompatActivity {
     }
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == android.view.KeyEvent.KEYCODE_BACK) {
-            Intent i = new Intent(this, katalog.class);
+            Intent i = new Intent(this, ListReagen.class);
             startActivity(i);
             finish();
         }
