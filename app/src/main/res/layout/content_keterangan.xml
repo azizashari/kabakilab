@@ -19,10 +19,22 @@
         android:alpha="0.85"
         android:background="@android:color/background_light"
         android:orientation="vertical"
-        android:weightSum="1"/>
+        android:weightSum="1">
 
 
-    <TableLayout
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TableLayout
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:stretchColumns="0,1,2"
@@ -324,5 +336,6 @@
         </TableRow>
 
     </TableLayout>
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

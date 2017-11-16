@@ -42,7 +42,7 @@ public class Petunjuk extends AppCompatActivity {
         TextView ek1b1 = (TextView) findViewById(R.id.etkol1bar1);
         ek1b1.setText("Bahan kimia yang dengan sangat sedikit paparan (exposure) dapat menyebabkan kematian atau sakit parah.");
 
-      /*  ek1b1 = (TextView) findViewById(R.id.etkol1bar1);
+        ek1b1 = (TextView) findViewById(R.id.etkol1bar1);
         ek2b1 = (TextView) findViewById(R.id.etkol2bar1);
         ek3b1 = (TextView) findViewById(R.id.etkol3bar1);
 
@@ -102,7 +102,7 @@ public class Petunjuk extends AppCompatActivity {
 
         ek1b5.setText(gek1b5);
         ek2b5.setText(gek2b5);
-        ek3b5.setText(gek3b5);*/
+        ek3b5.setText(gek3b5);
 
         TextView textView1 = (TextView) findViewById(R.id.textView1);
         textView1.setText("KABAKI LAB merupakan katalog bahan kimia berbasis android yang disusun untuk mempermudah pencarian bahan kimia yang tersedia di seluruh Laboratorium Pendidikan Teknologi Agroindustri. Adanya KABAKI LAB dapat membantu seluruh civitas akademik program studi untuk mencari dan mengetahui identitas bahan kimia yang tersedia di laboratorium melalui telepon genggam/gawai android yang dimiliki. \n\n" +

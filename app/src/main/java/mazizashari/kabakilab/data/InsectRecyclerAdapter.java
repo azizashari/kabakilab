@@ -124,17 +124,21 @@ public class InsectRecyclerAdapter extends
             tv_nama_reagen.setText(insect.namaReagen);
 
             String rumusKimia = insect.rumusKimia;
-            String rumusSub = ""+rumusKimia.charAt(0);
-            for(int i=1; i<rumusKimia.length(); i++){
-                if(rumusKimia.charAt(i-1) != '.' && (rumusKimia.charAt(i) == '1' || rumusKimia.charAt(i) == '2' || rumusKimia.charAt(i) == '3'
-                        || rumusKimia.charAt(i) == '4' || rumusKimia.charAt(i) == '5' || rumusKimia.charAt(i) == '6'
-                        || rumusKimia.charAt(i) == '7' || rumusKimia.charAt(i) == '8' || rumusKimia.charAt(i) == '9')){
-                    rumusSub = rumusSub + "<sub><small>" + rumusKimia.charAt(i) + "</small></sub>";
-                }else{
-                    rumusSub = rumusSub + rumusKimia.charAt(i);
+            if(rumusKimia.length() != 0) {
+                String rumusSub = "" + rumusKimia.charAt(0);
+                for (int i = 1; i < rumusKimia.length(); i++) {
+                    if (rumusKimia.charAt(i - 1) != '.' && (rumusKimia.charAt(i) == '1' || rumusKimia.charAt(i) == '2' || rumusKimia.charAt(i) == '3'
+                            || rumusKimia.charAt(i) == '4' || rumusKimia.charAt(i) == '5' || rumusKimia.charAt(i) == '6'
+                            || rumusKimia.charAt(i) == '7' || rumusKimia.charAt(i) == '8' || rumusKimia.charAt(i) == '9')) {
+                        rumusSub = rumusSub + "<sub><small>" + rumusKimia.charAt(i) + "</small></sub>";
+                    } else {
+                        rumusSub = rumusSub + rumusKimia.charAt(i);
+                    }
                 }
+                tv_rumus_kimia.setText(Html.fromHtml(rumusSub));
+            }else{
+                tv_rumus_kimia.setText(rumusKimia);
             }
-            tv_rumus_kimia.setText(Html.fromHtml(rumusSub));
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
