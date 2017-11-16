@@ -21,7 +21,10 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Petunjuk" />
+
+        <activity android:name=".Petunjuk"
+            android:label="Petunjuk Pemakaian" />
+
         <activity
             android:name=".ListReagen"
             android:theme="@style/AppTheme.NoActionBar"/>
@@ -29,8 +32,6 @@
             android:name=".Katalog.katalog1"
             android:label="@string/title_activity_katalog1"
             android:theme="@style/AppTheme.NoActionBar" />
-
-
         <activity
             android:name=".Katalog.katalog2"
             android:label="@string/title_activity_katalog2"
