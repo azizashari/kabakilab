@@ -39,13 +39,6 @@ public class Petunjuk extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_petunjuk);
 
-          /*  String boldText = " \n";
-        String normalText = " ";
-        SpannableString str = new SpannableString(boldText + normalText);
-        str.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText(str);
-        */
         TextView ek1b1 = (TextView) findViewById(R.id.etkol1bar1);
         ek1b1.setText("Bahan kimia yang dengan sangat sedikit paparan (exposure) dapat menyebabkan kematian atau sakit parah.");
 
