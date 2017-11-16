@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -121,7 +122,19 @@ public class InsectRecyclerAdapter extends
             }
             tv_no_reagen.setText(String.valueOf(position+1));
             tv_nama_reagen.setText(insect.namaReagen);
-            tv_rumus_kimia.setText(insect.rumusKimia);
+
+            String rumusKimia = insect.rumusKimia;
+            String rumusSub = ""+rumusKimia.charAt(0);
+            for(int i=1; i<rumusKimia.length(); i++){
+                if(rumusKimia.charAt(i-1) != '.' && (rumusKimia.charAt(i) == '1' || rumusKimia.charAt(i) == '2' || rumusKimia.charAt(i) == '3'
+                        || rumusKimia.charAt(i) == '4' || rumusKimia.charAt(i) == '5' || rumusKimia.charAt(i) == '6'
+                        || rumusKimia.charAt(i) == '7' || rumusKimia.charAt(i) == '8' || rumusKimia.charAt(i) == '9')){
+                    rumusSub = rumusSub + "<sub><small>" + rumusKimia.charAt(i) + "</small></sub>";
+                }else{
+                    rumusSub = rumusSub + rumusKimia.charAt(i);
+                }
+            }
+            tv_rumus_kimia.setText(Html.fromHtml(rumusSub));
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
