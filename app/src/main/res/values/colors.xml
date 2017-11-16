@@ -7,4 +7,6 @@
     <color name="backgroundButton">#46424242</color>
     <color name="textColor">#ff2efc</color>
     <color name="noColor">#fbd08b</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#ffff00</color>
 </resources>

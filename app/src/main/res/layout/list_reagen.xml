@@ -25,6 +25,20 @@
             app:srcCompat="@drawable/back" />
 
         <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:text="KATALOG"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,20 +52,6 @@
             android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="30dp"
-            android:fontFamily="sans-serif"
-            android:text="KATALOG"
-            android:textAlignment="center"
-            android:textColor="@android:color/white"
-            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/searchReagen"
