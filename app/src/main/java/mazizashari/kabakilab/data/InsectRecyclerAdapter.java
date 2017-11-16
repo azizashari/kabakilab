@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import mazizashari.kabakilab.Katalog.katalog10;
+import mazizashari.kabakilab.Katalog.katalog2;
 import mazizashari.kabakilab.R;
 
 import butterknife.BindView;
@@ -57,7 +57,7 @@ public class InsectRecyclerAdapter extends
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(itemView.getContext(), katalog10.class);
+                    Intent intent = new Intent(itemView.getContext(), katalog2.class);
                     //intent.putExtra(InsectDetailsActivity.EXTRA_DATA, insect);
                     itemView.getContext().startActivity(intent);
                 }
