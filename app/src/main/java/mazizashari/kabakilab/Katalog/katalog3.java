@@ -30,7 +30,7 @@ public class katalog3 extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
-        collapsingToolbarLayout.setTitle("3,5-Dinitrosalicylic acid/C7H4N2O7");
+        collapsingToolbarLayout.setTitle("3,5-Dinitrosalicylic acid");
 
         collapsingToolbarLayout.setCollapsedTitleTextColor(
                 ContextCompat.getColor(this, R.color.white));

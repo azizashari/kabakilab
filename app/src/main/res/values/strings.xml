@@ -70,7 +70,58 @@
     <string name="title_activity_katalog66">katalog66</string>
     <string name="title_activity_katalog67">katalog67</string>
     <string name="title_activity_katalog68">katalog68</string>
-
     <string name="title_activity_list_reagen">ListReagen</string>
 
+    <string name="kat1">H<sub><small>3</small></sub>BO<sub><small>3</small></sub></string>
+    <string name="kat10">HgI<sub><small>2</small></sub></string>
+    <string name="kat12">K<sub><small>2</small></sub>Cr<sub><small>2</small></sub>O<sub><small>7</small></sub></string>
+    <string name="kat13">K<sub><small>2</small></sub>C<sub><small>2</small></sub>O<sub><small>4</small></sub></string>
+    <string name="kat14">K<sub><small>2</small></sub>SO<sub><small>4</small></sub></string>
+    <string name="kat15">CH<sub><small>3</small></sub>COONa</string>
+    <string name="kat16">CH<sub><small>3</small></sub>COONa.3H<sub><small>2</small></sub>O</string>
+    <string name="kat17">Na<sub><small>2</small></sub>HPO<sub><small>4</small></sub></string>
+    <string name="kat18">(COO)<sub><small>2</small></sub>Na<sub><small>2</small></sub></string>
+    <string name="kat19">C<sub><small>6</small></sub>H<sub><small>5</small></sub>Na<sub><small>3</small></sub>O<sub><small>7</small></sub></string>
+
+    <string name="kat2">CaCl<sub><small>2</small></sub></string>
+    <string name="kat20">(NH4)<sub><small>2</small></sub>SO<sub><small>4</small></sub></string>
+    <string name="kat23">α-C<sub><small>10</small></sub>H<sub><small>7</small></sub>OH</string>
+    <string name="kat24">BaCl<sub><small>2</small></sub></string>
+    <string name="kat25">C<sub><small>21</small></sub>H<sub><small>14</small></sub>Br<sub><small>4</small></sub>O<sub><small>5</small></sub>S</string>
+    <string name="kat26">C<sub><small>27</small></sub>H<sub><small>28</small></sub>Br<sub><small>2</small></sub>O<sub><small>5</small></sub>S</string>
+    <string name="kat27">CaCl<sub><small>2</small></sub>2H<sub><small>2</small></sub>O<sub><small>2</small></sub></string>
+    <string name="kat28">C<sub><small>44</small></sub>H<sub><small>37</small></sub>O<sub><small>27</small></sub>AlCa</string>
+    <string name="kat29">C<sub><small>21</small></sub>H<sub><small>18</small></sub>O<sub><small>5</small></sub>S</string>
+    <string name="kat3">C<sub><small>7</small></sub>H<sub><small>4</small></sub>N<sub><small>2</small></sub>O<sub><small>7</small></sub></string>
+    <string name="kat30">C<sub><small>6</small></sub>H<sub><small>6</small></sub>O<sub><small>2</small></sub></string>
+    <string name="kat31">KMnO<sub><small>4</small></sub></string>
+    <string name="kat33">I<sub><small>2</small></sub></string>
+    <string name="kat35">C<sub><small>14</small></sub>H<sub><small>14</small></sub>N<sub><small>3</small></sub>NaO<sub><small>3</small></sub>S</string>
+    <string name="kat36">C<sub><small>15</small></sub>H<sub><small>15</small></sub>N<sub><small>3</small></sub>O<sub><small>2</small></sub></string>
+    <string name="kat37">C<sub><small>9</small></sub>H<sub><small>4</small></sub>O<sub><small>3</small></sub>.H<sub><small>2</small></sub>O atau C<sub><small>9</small></sub>H<sub><small>6</small></sub>O<sub><small>4</small></sub></string>
+    <string name="kat38">C<sub><small>20</small></sub>H<sub><small>14</small></sub>O<sub><small>4</small></sub></string>
+    <string name="kat39">C<sub><small>8</small></sub>H<sub><small>6</small></sub>O<sub><small>4</small></sub>K</string>
+
+    <string name="kat4">FeCl<sub><small>2</small></sub></string>
+    <string name="kat40">C<sub><small>6</small></sub>H<sub><small>6</small></sub>O<sub><small>2</small></sub></string>
+    <string name="kat41">C<sub><small>6</small></sub>H<sub><small>6</small></sub>O<sub><small>2</small></sub></string>
+    <string name="kat42">AgNO<sub><small>3</small></sub></string>
+    <string name="kat43">NH<sub><small>4</small></sub>Cl</string>
+    <string name="kat44">AgNO<sub><small>3</small></sub></string>
+    <string name="kat45">H<sub><small>2</small></sub>C<sub><small>2</small></sub>O<sub><small>4</small></sub></string>
+    <string name="kat47">CaCO<sub><small>3</small></sub></string>
+    <string name="kat49">C<sub><small>6</small></sub>H<sub><small>8</small></sub>O<sub><small>7</small></sub>.H<sub><small>2</small></sub>O</string>
+
+    <string name="kat5">FeSO<sub><small>4</small></sub>.7H<sub><small>2</small></sub>O</string>
+    <string name="kat50">C<sub><small>25</small></sub>H<sub><small>30</small></sub>CIN<sub><small>3</small></sub></string>
+    <string name="kat53">C<sub><small>6</small></sub>H<sub><small>12</small></sub>O<sub><small>6</small></sub></string>
+    <string name="kat54">C<sub><small>7</small></sub>H<sub><small>124</small></sub>O<sub><small>9</small></sub>N<sub><small>24</small></sub></string>
+    <string name="kat56">C<sub><small>12</small></sub>H<sub><small>22</small></sub>O<sub><small>11</small></sub>.H<sub><small>2</small></sub>O</string>
+    <string name="kat57">C<sub><small>12</small></sub>H<sub><small>22</small></sub>O<sub><small>11</small></sub>.H<sub><small>2</small></sub>O</string>
+    <string name="kat58">HPO<sub><small>3</small></sub></string>
+
+    <string name="kat6">FeCl<sub><small>3</small></sub></string>
+    <string name="kat63">HK<sub><small>2</small></sub>HO<sub><small>4</small></sub>P.3H<sub><small>2</small></sub>O</string>
+    <string name="kat66">Na<sub><small>2</small></sub>CO<sub><small>3</small></sub></string>
+    <string name="kat68">Na<sub><small>2</small></sub>S<sub><small>2</small></sub>O<sub><small>3</small></sub></string>
 </resources>
