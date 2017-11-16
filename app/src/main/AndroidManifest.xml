@@ -48,6 +48,22 @@
 
 
         <activity
+            android:name=".Katalog.katalog2"
+            android:label="@string/title_activity_katalog2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog3"
+            android:label="@string/title_activity_katalog3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog4"
+            android:label="@string/title_activity_katalog4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Katalog.katalog5"
+            android:label="@string/title_activity_katalog5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Katalog.katalog6"
             android:label="@string/title_activity_katalog6"
             android:theme="@style/AppTheme.NoActionBar" />

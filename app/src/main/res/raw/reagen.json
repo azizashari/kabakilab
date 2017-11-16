@@ -115,6 +115,162 @@
     {
       "namaReagen": "Cresol Red",
       "rumusKimia": "C21H18O5S"
+    },
+    {
+      "namaReagen": "Dihydroxybenzene",
+      "rumusKimia": "C6H6O2"
+    },
+    {
+      "namaReagen": "Kalium Permanganat",
+      "rumusKimia": "KMnO4"
+    },
+    {
+      "namaReagen": "Lead (II) Oxide",
+      "rumusKimia": "PbO"
+    },
+    {
+      "namaReagen": "Iodine",
+      "rumusKimia": "I2"
+    },
+    {
+      "namaReagen": "Mercury (II) Oxide",
+      "rumusKimia": "HgO"
+    },
+    {
+      "namaReagen": "Methyl Orange",
+      "rumusKimia": "C14H14N3NaO3S"
+    },
+    {
+      "namaReagen": "Methyl Red",
+      "rumusKimia": "C15H15N3O2"
+    },
+    {
+      "namaReagen": "Ninhydrin",
+      "rumusKimia": "C9H4O3.H2O atau C9H6O4"
+    },
+    {
+      "namaReagen": "Phenolphthalein",
+      "rumusKimia": "C20H14O4"
+    },
+    {
+      "namaReagen": "Potassium Hydrogen Phthalat",
+      "rumusKimia": "C8H6O4K"
+    },
+    {
+      "namaReagen": "Pyrocatechol",
+      "rumusKimia": "C6H6O2"
+    },
+    {
+      "namaReagen": "Resorcinol",
+      "rumusKimia": "C6H6O2"
+    },
+    {
+      "namaReagen": "Silver Nitrate",
+      "rumusKimia": "AgNO3"
+    },
+    {
+      "namaReagen": "Ammonium Chloride",
+      "rumusKimia": "NH4Cl"
+    },
+    {
+      "namaReagen": "Argenti Nitrat",
+      "rumusKimia": "AgNO3"
+    },
+    {
+      "namaReagen": "Asam Oksalat",
+      "rumusKimia": "H2C2O4"
+    },
+    {
+      "namaReagen": "Brilliant Green Bile",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "Calcium Carbonate",
+      "rumusKimia": "CaCO3"
+    },
+    {
+      "namaReagen": "Chromogenic Coliform Agar",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "Citric Acid Monohydrate",
+      "rumusKimia": "C6H8O7.H2O"
+    },
+    {
+      "namaReagen": "Crystal Violet",
+      "rumusKimia": "C25H30CIN3"
+    },
+    {
+      "namaReagen": "EMB (Eosin Methylene Blue) Agar",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "Fluorocult/E.coli 0157:H7-Agar",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "Fructose",
+      "rumusKimia": "C6H12O6"
+    },
+    {
+      "namaReagen": "Gelatin",
+      "rumusKimia": "C76H124O29N24"
+    },
+    {
+      "namaReagen": "Lactose Broth",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "Lactose Monohydrate",
+      "rumusKimia": "C12H22O11.H2O"
+    },
+    {
+      "namaReagen": "Maltose Monohydrate",
+      "rumusKimia": "C12H22O11.H2O"
+    },
+    {
+      "namaReagen": "Metha Phosphoric Acid",
+      "rumusKimia": "HPO3"
+    },
+    {
+      "namaReagen": "MRS (De Man, Rogosa and Sharpe) Agar",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "NA (Nutrient Agar)",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "Nutrient Broth",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "PCA (Plate Count Agar)",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "di-Potassium Hydrogen Phosphate trihydrate",
+      "rumusKimia": "HK2HO4P.3H2O"
+    },
+    {
+      "namaReagen": "PDA (Potato Dextrose Agar)",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "Salmonella-Shigella Agar",
+      "rumusKimia": ""
+    },
+    {
+      "namaReagen": "Sodium Carbonate",
+      "rumusKimia": "Na2CO3"
+    },
+    {
+      "namaReagen": "Sodium Chloride",
+      "rumusKimia": "NaCl"
+    },
+    {
+      "namaReagen": "Sodium Thiosulfate",
+      "rumusKimia": "Na2S2O3"
     }
   ]
 }

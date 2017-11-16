@@ -33,10 +33,10 @@ public class DatabaseManager {
      *
      * @return {@link Cursor} containing all insect results.
      */
-    public Cursor queryAllReagen() {
+    public Cursor queryAllReagen(String search) {
         //COMPLETED: Implement the query
-        return mBugsDbHelper.getReadableDatabase().rawQuery("SELECT * FROM " + BugsDbHelper.TABLE_NAME
-                , null
+        return mBugsDbHelper.getReadableDatabase().rawQuery("SELECT * FROM "+ BugsDbHelper.TABLE_NAME +
+                " WHERE " + BugsDbHelper.COLUMN_NAMA_REAGEN + " LIKE  '%"+search+"%'", null
         );
     }
 

@@ -7,6 +7,7 @@ import android.os.Parcelable;
 public final class Insect implements Parcelable {
     private static final String TAG = Insect.class.getSimpleName();
 
+    public final int idReagen;
     //Common name
     public final String namaReagen;
     //Latin scientific name
@@ -15,7 +16,8 @@ public final class Insect implements Parcelable {
     /**
      * Create a new Insect from discrete values
      */
-    public Insect(String namaReagen, String rumusKimia) {
+    public Insect(int idReagen, String namaReagen, String rumusKimia) {
+        this.idReagen = idReagen;
         this.namaReagen = namaReagen;
         this.rumusKimia = rumusKimia;
     }
@@ -25,6 +27,7 @@ public final class Insect implements Parcelable {
      */
     public Insect(Cursor cursor) {
         //COMPLETED: Create a new insect from cursor
+        this.idReagen = cursor.getInt(cursor.getColumnIndex(BugsDbHelper.COLUMN_ID));
         this.namaReagen = cursor.getString(cursor.getColumnIndex(BugsDbHelper.COLUMN_NAMA_REAGEN));
         this.rumusKimia = cursor.getString(cursor.getColumnIndex(BugsDbHelper.COLUMN_RUMUS_KIMIA));
     }
@@ -33,12 +36,14 @@ public final class Insect implements Parcelable {
      * Create a new Insect from a data Parcel
      */
     protected Insect(Parcel in) {
+        this.idReagen = in.readInt();
         this.namaReagen = in.readString();
         this.rumusKimia = in.readString();
     }
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(idReagen);
         dest.writeString(namaReagen);
         dest.writeString(rumusKimia);
     }

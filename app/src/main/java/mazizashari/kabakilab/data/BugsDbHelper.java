@@ -25,7 +25,7 @@ import java.io.InputStreamReader;
 public class BugsDbHelper extends SQLiteOpenHelper {
     private static final String TAG = BugsDbHelper.class.getSimpleName();
 
-    private static final String DATABASE_NAME = "reagen.db";
+    public static final String DATABASE_NAME = "reagen.db";
     private static final int DATABASE_VERSION = 1;
 
     //Used to read data from res/ and assets/
