@@ -35,7 +35,7 @@ public class katalog5 extends AppCompatActivity {
         collapsingToolbarLayout.setCollapsedTitleTextColor(
                 ContextCompat.getColor(this, R.color.white));
         collapsingToolbarLayout.setExpandedTitleColor(
-                ContextCompat.getColor(this, R.color.colorPrimary));
+                ContextCompat.getColor(this, android.R.color.transparent));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

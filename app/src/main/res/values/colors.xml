@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#585858</color>
     <color name="colorPrimaryDark">#080808</color>
     <color name="colorAccent">#ffffff</color>
     <color name="backgroundSplash">#feeaca</color>
@@ -9,4 +9,5 @@
     <color name="noColor">#fbd08b</color>
     <color name="white">#ffffff</color>
     <color name="yellow">#ffff00</color>
+    <color name="toolbarBackground">#d4d560</color>
 </resources>
