@@ -124,4 +124,6 @@
     <string name="kat63">HK<sub><small>2</small></sub>HO<sub><small>4</small></sub>P.3H<sub><small>2</small></sub>O</string>
     <string name="kat66">Na<sub><small>2</small></sub>CO<sub><small>3</small></sub></string>
     <string name="kat68">Na<sub><small>2</small></sub>S<sub><small>2</small></sub>O<sub><small>3</small></sub></string>
+    <string name="title_activity_petunjuk_pemakaian">Petunjuk Pemakaian</string>
+
 </resources>
