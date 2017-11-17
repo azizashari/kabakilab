@@ -335,7 +335,7 @@
                     android:gravity="center"
                     android:layout_column="2" />
 
-                <EditText
+                <TextView
                     android:id="@+id/etkol3bar4"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -368,7 +368,7 @@
                     android:gravity="center"
                     />
 
-                <EditText
+                <TextView
                     android:id="@+id/etkol1bar5"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -380,7 +380,7 @@
                     android:gravity="center"
                     />
 
-                <EditText
+                <TextView
                     android:id="@+id/etkol2bar5"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -391,7 +391,7 @@
                     android:gravity="center"
                     android:layout_column="2" />
 
-                <EditText
+                <TextView
                     android:id="@+id/etkol3bar5"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
