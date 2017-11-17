@@ -116,10 +116,7 @@ public class Petunjuk extends AppCompatActivity {
                 "5.Identitas dan keterangan tentang bahan kimia yang dicari dapat dilihat setelah memilih nama bahan kimia tersebut.\n" +
                 "6.Apabila ingin kembali melakukan pencarian, tekan tombol Kembali pada telepon genggam/gawai android.\n" +
                 "7.Untuk mempermudah pembacaan skala bahaya bahan kimia, berikut pengertian dari skala bahaya bahan kimia:\n");
-
     }
-
-
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
