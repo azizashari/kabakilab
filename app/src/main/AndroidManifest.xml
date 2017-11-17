@@ -22,9 +22,6 @@
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Petunjuk"
-            android:label="Petunjuk Pemakaian" />
-        <activity
             android:name=".ListReagen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

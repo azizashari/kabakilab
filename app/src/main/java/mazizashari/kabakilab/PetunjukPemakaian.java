@@ -54,24 +54,24 @@ public class PetunjukPemakaian extends AppCompatActivity {
                 ContextCompat.getColor(this, android.R.color.transparent));
 
         ek1b1 = (TextView) findViewById(R.id.etkol1bar1);
-        ek2b1 = (TextView) findViewById(R.id.etkol2bar1);
-        ek3b1 = (TextView) findViewById(R.id.etkol3bar1);
+        //ek2b1 = (TextView) findViewById(R.id.etkol2bar1);
+        //ek3b1 = (TextView) findViewById(R.id.etkol3bar1);
 
         ek1b2 = (TextView) findViewById(R.id.etkol1bar2);
-        ek2b2 = (TextView) findViewById(R.id.etkol2bar2);
-        ek3b2 = (TextView) findViewById(R.id.etkol3bar2);
+        //ek2b2 = (TextView) findViewById(R.id.etkol2bar2);
+        //ek3b2 = (TextView) findViewById(R.id.etkol3bar2);
 
         ek1b3 = (TextView) findViewById(R.id.etkol1bar3);
-        ek2b3 = (TextView) findViewById(R.id.etkol2bar3);
-        ek3b3 = (TextView) findViewById(R.id.etkol3bar3);
+        //ek2b3 = (TextView) findViewById(R.id.etkol2bar3);
+        //ek3b3 = (TextView) findViewById(R.id.etkol3bar3);
 
         ek1b4 = (TextView) findViewById(R.id.etkol1bar4);
-        ek2b4 = (TextView) findViewById(R.id.etkol2bar4);
-        ek3b4 = (TextView) findViewById(R.id.etkol3bar4);
+        //ek2b4 = (TextView) findViewById(R.id.etkol2bar4);
+        //ek3b4 = (TextView) findViewById(R.id.etkol3bar4);
 
         ek1b5 = (TextView) findViewById(R.id.etkol1bar5);
-        ek2b5 = (TextView) findViewById(R.id.etkol2bar5);
-        ek3b5 = (TextView) findViewById(R.id.etkol3bar5);
+        //ek2b5 = (TextView) findViewById(R.id.etkol2bar5);
+        //ek3b5 = (TextView) findViewById(R.id.etkol3bar5);
 
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
@@ -96,24 +96,24 @@ public class PetunjukPemakaian extends AppCompatActivity {
         String gek3b5 = sharedpreferences.getString("k3b5", "Bahan kimia yang secara sendirian stabil kecuali pada kondisi nyala api dan bahan tidak reaktif dengan air.");
 
         ek1b1.setText(gek1b1);
-        ek2b1.setText(gek2b1);
-        ek3b1.setText(gek3b1);
+        //ek2b1.setText(gek2b1);
+        //ek3b1.setText(gek3b1);
 
         ek1b2.setText(gek1b2);
-        ek2b2.setText(gek2b2);
-        ek3b2.setText(gek3b2);
+        //ek2b2.setText(gek2b2);
+        //ek3b2.setText(gek3b2);
 
         ek1b3.setText(gek1b3);
-        ek2b3.setText(gek2b3);
-        ek3b3.setText(gek3b3);
+        //ek2b3.setText(gek2b3);
+        //ek3b3.setText(gek3b3);
 
         ek1b4.setText(gek1b4);
-        ek2b4.setText(gek2b4);
-        ek3b4.setText(gek3b4);
+        //ek2b4.setText(gek2b4);
+        //ek3b4.setText(gek3b4);
 
         ek1b5.setText(gek1b5);
-        ek2b5.setText(gek2b5);
-        ek3b5.setText(gek3b5);
+        //ek2b5.setText(gek2b5);
+        //ek3b5.setText(gek3b5);
 
         TextView textView1 = (TextView) findViewById(R.id.textView1);
         textView1.setText("KABAKI LAB merupakan katalog bahan kimia berbasis android yang disusun untuk mempermudah pencarian bahan kimia yang tersedia di seluruh Laboratorium Pendidikan Teknologi Agroindustri. Adanya KABAKI LAB dapat membantu seluruh civitas akademik program studi untuk mencari dan mengetahui identitas bahan kimia yang tersedia di laboratorium melalui telepon genggam/gawai android yang dimiliki. \n\n" +
