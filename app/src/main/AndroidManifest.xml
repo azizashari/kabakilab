@@ -302,7 +302,9 @@
         <activity
             android:name=".PetunjukPemakaian"
             android:label="@string/title_activity_petunjuk_pemakaian"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>
