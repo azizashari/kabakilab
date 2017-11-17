@@ -22,7 +22,6 @@
             android:layout_height="match_parent"
             android:background="@color/toolbarBackground"
             android:fitsSystemWindows="true"
-            android:padding="8dp"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleMarginEnd="64dp"
             app:expandedTitleMarginStart="48dp"
