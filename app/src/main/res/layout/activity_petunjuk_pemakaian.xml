@@ -60,6 +60,4 @@
 
     <include layout="@layout/content_petunjuk_pemakaian" />
 
-
-
 </android.support.design.widget.CoordinatorLayout>
