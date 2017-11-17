@@ -120,13 +120,13 @@ public class PetunjukPemakaian extends AppCompatActivity {
                 "Adapun petunjuk pemakaian KABAKI LAB adalah sebagai berikut.");
 
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText("1. Pilih menu Petunjuk Pemakaian untuk mengetahui cara pemakaian KABAKI LAB.\n" +
-                "2. Pilihlah menu Mulai untuk memulai pencarian nama bahan kimia.\n" +
-                "3. Tuliskan nama bahan kimia pada kolom Pencarian\n" +
-                "4. Apabila sudah ditemukan daftar bahan kimia, kemudian pilih nama bahan kimia yang dicari.\n" +
-                "5. Identitas dan keterangan tentang bahan kimia yang dicari dapat dilihat setelah memilih nama bahan kimia tersebut.\n" +
-                "6. Apabila ingin kembali melakukan pencarian, tekan tombol Kembali pada telepon genggam/gawai android.\n" +
-                "7. Untuk mempermudah pembacaan skala bahaya bahan kimia, berikut pengertian dari skala bahaya bahan kimia:\n");
+        textView2.setText("1. Pilih menu Petunjuk Pemakaian untuk mengetahui cara pemakaian KABAKI LAB.\n\n" +
+                "2. Pilihlah menu Mulai untuk memulai pencarian nama bahan kimia.\n\n" +
+                "3. Tuliskan nama bahan kimia pada kolom Pencarian\n\n" +
+                "4. Apabila sudah ditemukan daftar bahan kimia, kemudian pilih nama bahan kimia yang dicari.\n\n" +
+                "5. Identitas dan keterangan tentang bahan kimia yang dicari dapat dilihat setelah memilih nama bahan kimia tersebut.\n\n" +
+                "6. Apabila ingin kembali melakukan pencarian, tekan tombol Kembali pada telepon genggam/gawai android.\n\n" +
+                "7. Untuk mempermudah pembacaan skala bahaya bahan kimia, berikut pengertian dari skala bahaya bahan kimia:\n\n");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
