@@ -3,14 +3,18 @@ package mazizashari.kabakilab;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.KeyEvent;;
+import android.support.v7.widget.Toolbar;
+import android.view.KeyEvent;
+import android.view.View;
 import android.widget.TextView;
 
-public class Petunjuk extends AppCompatActivity {
+public class PetunjukPemakaian extends AppCompatActivity {
 
     TextView ek1b1,ek2b1,ek3b1,ek1b2,ek2b2,ek3b2,ek1b3,ek2b3,ek3b3,ek1b4,ek2b4,ek3b4,ek1b5,ek2b5,ek3b5;
     public static final String MyPREFERENCES = "MyPrefs" ;

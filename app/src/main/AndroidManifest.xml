@@ -21,13 +21,12 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity android:name=".Petunjuk"
+        <activity
+            android:name=".Petunjuk"
             android:label="Petunjuk Pemakaian" />
-
         <activity
             android:name=".ListReagen"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Katalog.katalog1"
             android:label="@string/title_activity_katalog1"
@@ -36,15 +35,15 @@
             android:name=".Katalog.katalog2"
             android:label="@string/title_activity_katalog2"
             android:theme="@style/AppTheme.NoActionBar" />
-         <activity
+        <activity
             android:name=".Katalog.katalog3"
             android:label="@string/title_activity_katalog3"
             android:theme="@style/AppTheme.NoActionBar" />
-         <activity
+        <activity
             android:name=".Katalog.katalog4"
             android:label="@string/title_activity_katalog4"
             android:theme="@style/AppTheme.NoActionBar" />
-         <activity
+        <activity
             android:name=".Katalog.katalog5"
             android:label="@string/title_activity_katalog5"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -300,6 +299,10 @@
             android:name=".Katalog.katalog68"
             android:label="@string/title_activity_katalog68"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetunjukPemakaian"
+            android:label="@string/title_activity_petunjuk_pemakaian"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         bPetunjuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Petunjuk.class);
+                Intent intent = new Intent(MainActivity.this,PetunjukPemakaian.class);
                 startActivity(intent);
                 finish();
             }
