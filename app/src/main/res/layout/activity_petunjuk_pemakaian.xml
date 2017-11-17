@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/bg1"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     android:fitsSystemWindows="true"
     tools:context="mazizashari.kabakilab.PetunjukPemakaian">
 
@@ -12,7 +12,7 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
-        android:background="@color/backgroundButton"
+        android:background="@drawable/gear"
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
@@ -20,8 +20,9 @@
             android:id="@+id/toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/backgroundPetunjuk"
             android:fitsSystemWindows="true"
-            app:contentScrim="@color/toolbarBackground"
+            app:contentScrim="@color/toolbarBackgroundPetunjuk"
             app:expandedTitleMarginEnd="64dp"
             app:expandedTitleMarginStart="48dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
@@ -41,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:text="Petunjuk Pemakaian"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/textColor"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 

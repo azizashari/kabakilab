@@ -10,4 +10,6 @@
     <color name="white">#fefefe</color>
     <color name="yellow">#ffff00</color>
     <color name="toolbarBackground">#d4d560</color>
+    <color name="toolbarBackgroundPetunjuk">#72d9d7</color>
+    <color name="backgroundPetunjuk">#1e424242</color>
 </resources>
