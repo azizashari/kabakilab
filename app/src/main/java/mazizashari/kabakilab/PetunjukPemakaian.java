@@ -43,7 +43,7 @@ public class PetunjukPemakaian extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_petunjuk);
+        setContentView(R.layout.activity_petunjuk_pemakaian);
 
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
         collapsingToolbarLayout.setTitle("Petunjuk Pemakaian");
