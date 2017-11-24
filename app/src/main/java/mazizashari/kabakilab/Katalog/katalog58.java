@@ -96,11 +96,11 @@ public class katalog58 extends AppCompatActivity {
         textView4.setText(str4);
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        textView5.setText("- Sangat berbahaya sekali jika terjadi kontak dengan mata. Jika terkena mata dapat menyebabkan kerusakan kornea dan kebutaan.\n" +
+        textView5.setText("- Sangat berbahaya sekali jika terjadi kontak dengan mata. Jika terkena mata, dapat menyebabkan kerusakan kornea dan kebutaan.\n" +
                 "- Sangat berbahaya jika terjadi kontak dengan saluran pencernaan dan pernapasan. \n" +
-                "- Jika terhirup akan menyebabkan iritasi pada saluran pencernaan dan saluran pernapasan seperti bersin, batuk dan terasa seperti terbakar.\n" +
+                "- Jika terhirup, akan menyebabkan iritasi pada saluran pencernaan dan saluran pernapasan seperti bersin, batuk dan terasa seperti terbakar.\n" +
                 "- Paparan yang berlebihan dapat menyebabkan gangguan pernapasan dan kerusakan paru-paru.\n" +
-                "- Sedikit berbahaya jika terjadi kontak dengan kulit. Jika terkena kulit dapat menyebabkan peradangan.");
+                "- Sedikit berbahaya jika terjadi kontak dengan kulit. Jika terkena kulit, dapat menyebabkan peradangan.");
 
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
@@ -125,7 +125,7 @@ public class katalog58 extends AppCompatActivity {
         textView10.setText("* Jika terkena kulit");
 
         TextView textView11 = (TextView) findViewById(R.id.textView11);
-        textView11.setText("- Lepas pakaian dan sepatu yang terkena bahan kimia. Bersihkan kulit yang terkena bahan kimia dengan sabun dan air. Bersihkan pakaian dan sepatu apabila akan digunakan kembali. Segera hubungi medis.");
+        textView11.setText("- Segera basuh dengan banyak air. Lepas pakaian dan sepatu yang terkena bahan kimia. Bersihkan kulit yang terkena bahan kimia dengan sabun dan air. Bersihkan pakaian dan sepatu apabila akan digunakan kembali. Segera hubungi medis.");
 
         TextView textView12 = (TextView) findViewById(R.id.textView12);
         textView12.setText("* Jika terhirup");
@@ -152,7 +152,7 @@ public class katalog58 extends AppCompatActivity {
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan).\n" +
                 "- Jaga wadah bahan kimia agar tetap kering. \n" +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup. \n" +
+                "- Simpan di tempat yang tertutup, kering dan berventilasi cukup. \n" +
                 "- Jauhkan dari zat logam, alkali dan uap air.");
     }
 

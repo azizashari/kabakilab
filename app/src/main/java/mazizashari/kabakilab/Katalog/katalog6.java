@@ -99,9 +99,9 @@ public class katalog6 extends AppCompatActivity {
         TextView textView5 = (TextView) findViewById(R.id.textView5);
         textView5.setText("- Sangat berbahaya jika terjadi kontak dengan saluran pencernaan.\n" +
                 "- Berbahaya jika terjadi kontak dengan kulit, mata dan saluran pernapasan. Korosif terhadap mata dan kulit\n" +
-                "- Jika terkena mata dapat menyebabkan kerusakan kornea dan kebutaan\n" +
-                "- Jika terhirup akan menyebabkan iritasi pada saluran pencernaan dan saluran pernapasan seperti bersin, batuk dan terasa seperti terbakar.\n" +
-                "- Paparan yang berlebihan dapat menyebabkan gangguan pernapasan dan kerusakan paru-paru. Jika terkena kulit dapat menyebabkan peradangan dan melepuh.");
+                "- Jika terkena mata, dapat menyebabkan kerusakan kornea dan kebutaan\n" +
+                "- Jika terhirup, akan menyebabkan iritasi pada saluran pencernaan dan saluran pernapasan seperti bersin, batuk dan terasa seperti terbakar.\n" +
+                "- Paparan yang berlebihan dapat menyebabkan gangguan pernapasan dan kerusakan paru-paru. Jika terkena kulit, dapat menyebabkan peradangan dan melepuh.");
 
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
@@ -152,7 +152,7 @@ public class katalog6 extends AppCompatActivity {
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
                 "- Jaga wadah bahan kimia agar tetap kering.\n " +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup.\n");
+                "- Simpan di tempat yang tertutup, kering dan berventilasi cukup.\n");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {

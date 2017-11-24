@@ -147,7 +147,7 @@ public class katalog57 extends AppCompatActivity {
         TextView textView17 = (TextView) findViewById(R.id.textView17);
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan).\n" +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup.");
+                "- Simpan di tempat yang tertutup, kering dan berventilasi cukup.");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {

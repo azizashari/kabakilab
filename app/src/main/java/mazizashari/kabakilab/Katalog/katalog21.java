@@ -41,7 +41,7 @@ public class katalog21 extends AppCompatActivity {
         });
 
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
-        collapsingToolbarLayout.setTitle("Natrium Hidroksida");
+        collapsingToolbarLayout.setTitle("Hydrochloric Acid");
 
         collapsingToolbarLayout.setCollapsedTitleTextColor(
                 ContextCompat.getColor(this, R.color.white));
@@ -99,9 +99,9 @@ public class katalog21 extends AppCompatActivity {
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
         textView5.setText("- Sangat berbahaya sekali jika terjadi kontak dengan kulit, mata, saluran pencernaan dan saluran pernafasan. Banyaknya kerusakan jaringan tergantung dari lamanya kontak dengan bahan kimia.\n" +
-                "- Jika terkena mata dapat menyebabkan kerusakan kornea dan kebutaan.\n" +
-                "- Jika terhirup akan menyebabkan iritasi pada saluran pencernaan dan saluran pernapasan seperti bersin, batuk dan terasa seperti terbakar. Paparan yang berlebihan dapat menyebabkan gangguan pernapasan dan kerusakan paru-paru.\n" +
-                "- Jika terkena kulit dapat menyebabkan peradangan. Peradangan pada kulit ditandai dengan kulit kemerahan, gatal dan melepuh. Peradangan pada mata ditandai dengan mata kemerahan, berair dan gatal.");
+                "- Jika terkena mata, dapat menyebabkan kerusakan kornea dan kebutaan.\n" +
+                "- Jika terhirup, akan menyebabkan iritasi pada saluran pencernaan dan saluran pernapasan seperti bersin, batuk dan terasa seperti terbakar. Paparan yang berlebihan dapat menyebabkan gangguan pernapasan dan kerusakan paru-paru.\n" +
+                "- Jika terkena kulit, dapat menyebabkan peradangan. Peradangan pada kulit ditandai dengan kulit kemerahan, gatal dan melepuh. Peradangan pada mata ditandai dengan mata kemerahan, berair dan gatal.");
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
 
@@ -151,7 +151,7 @@ public class katalog21 extends AppCompatActivity {
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
                 "- Jaga wadah bahan kimia agar tetap kering dan tertutup rapat. Jauhkan dari panas, sumber api dan bahan yang mudah terbakar.\n " +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup.\n" +
+                "- Simpan di tempat yang tertutup, kering dan berventilasi cukup.\n" +
                 "- Jauhkan dari zat pengoksidasi, pereduksi, logam, asam, alkali dan uap air.");
     }
 

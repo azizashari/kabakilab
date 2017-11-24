@@ -151,7 +151,7 @@ public class katalog12 extends AppCompatActivity {
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
                 "- Jaga wadah bahan kimia agar tetap kering dan tertutup rapat. Wadah yang dipakai tidak mengandung logam.\n " +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup.\n" +
+                "- Simpan di tempat yang tertutup, kering dan berventilasi cukup.\n" +
                 "- Jauhkan dari zat pereduksi, zat organik dan zat yang mudah terbakar.");
     }
 

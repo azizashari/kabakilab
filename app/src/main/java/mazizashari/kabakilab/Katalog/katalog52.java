@@ -83,7 +83,7 @@ public class katalog52 extends AppCompatActivity {
         textView2.setText(Html.fromHtml("<b>Spesifikasi</b> <br/> <i>Pro Analysis</i>"));
 
         String boldText3 = "Merek\n";
-        String normalText3 = "Merck dan Sigma";
+        String normalText3 = "Merck";
         SpannableString str3 = new SpannableString(boldText3 + normalText3);
         str3.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText3.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView3 = (TextView) findViewById(R.id.textView3);
@@ -97,7 +97,7 @@ public class katalog52 extends AppCompatActivity {
         textView4.setText(str4);
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        textView5.setText("- Dapat menyebabkan iritasi mata mata, saluran pencernaan dan saluran pernapasan.");
+        textView5.setText("- Dapat menyebabkan iritasi mata, saluran pencernaan dan saluran pernapasan.");
 
         /*        TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
@@ -146,7 +146,7 @@ public class katalog52 extends AppCompatActivity {
 
         TextView textView17 = (TextView) findViewById(R.id.textView17);
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan).\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup. \n");
+                "- Simpan di tempat yang tertutup, kering dan berventilasi cukup. \n");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {

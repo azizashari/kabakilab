@@ -97,7 +97,7 @@ public class katalog53 extends AppCompatActivity {
         textView4.setText(str4);
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        textView5.setText("- Dapat menyebabkan iritasi mata mata, saluran pencernaan dan saluran pernapasan.");
+        textView5.setText("- Dapat menyebabkan iritasi mata, saluran pencernaan dan saluran pernapasan.");
 
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
@@ -148,7 +148,7 @@ public class katalog53 extends AppCompatActivity {
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan).\n" +
                 "- Jaga wadah bahan kimia agar tetap kering. Jauhkan dari panas, sumber api dan bahan yang mudah terbakar.\n" +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup. Bahan kimia bersifat higroskopis.\n" +
+                "- Simpan di tempat yang tertutup, kering dan berventilasi cukup. Bahan kimia bersifat higroskopis.\n" +
                 "- Jauhkan dari zat pengoksidasi.");
     }
 

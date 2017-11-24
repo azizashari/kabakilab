@@ -100,7 +100,7 @@ public class katalog23 extends AppCompatActivity {
         textView5.setText("- Sangat berbahaya sekali jika terjadi kontak dengan kulit, mata, saluran pencernaan.\n" +
                 "- Sedikit berbahaya jika terjadi kontak dengan saluran pernapasan.\n" +
                 "- Dapat menyebabkan iritasi pada mata, kulit, berbahaya apabila terhirup dan paling bahaya yaitu dapat menyebabkan kematian.\n" +
-                "- Peradangan pada mata ditandai dengan kemerahan,berair dan gatal. \n" +
+                "- Peradangan pada mata ditandai dengan kemerahan, berair dan gatal. \n" +
                 "- Peradangan pada kulit ditandai dengan gatal, kemerahan dan melepuh.");
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
@@ -131,14 +131,14 @@ public class katalog23 extends AppCompatActivity {
         textView12.setText("* Jika terhirup");
 
         TextView textView13 = (TextView) findViewById(R.id.textView13);
-        textView13.setText("- Pindahkan korban ke udara segar. Jika sulit bernapas, berikan oksigen. Jika tidak bernapas, berikan pernapasan buatan.\n" +
-                "- Perhatian : dapat menjadi bahaya bagi orang yang akan memberikan pertolongan pernapasan dari mulut ke mulut apabila bahan yang terhirup bersifat beracun, menyebabkan infeksi dan korosif. Segera hubungi medis.");
+        textView13.setText("- Pindahkan korban ke udara segar. Jika sulit bernapas, berikan oksigen. Jika tidak bernapas, berikan pernapasan buatan.");
 
         TextView textView14 = (TextView) findViewById(R.id.textView14);
         textView14.setText("* Jika tertelan");
 
         TextView textView15 = (TextView) findViewById(R.id.textView15);
-        textView15.setText("- Bersihkan mulut dan minum dengan banyak air. Jika tertelan dalam jumlah yang banyak, segera hubungi medis.");
+        textView15.setText("- Jangan memaksakan untuk muntah kecuali jika diarahkan oleh petugas medis. Jangan memberikan apa pun melalui mulut jika korban dalam keadaan tidak sadarkan diri. Longgarkan pakaian korban seperti kerah, dasi dan ikat pinggang.\n" +
+                "- Jika tertelan dalam jumlah yang banyak, segera hubungi medis.");
 
         String boldText16 = "Penanganan dan penyimpanan bahan";
         String normalText16 = "";
@@ -152,7 +152,7 @@ public class katalog23 extends AppCompatActivity {
                 "- Jaga wadah bahan kimia agar tetap kering dan tertutup rapat. Jauhkan dari panas, sumber api dan bahan yang mudah terbakar.\n " +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
                 "- Jauhkan dari sumber panas dan api.\n" +
-                "- Simpan ditempat yang tertutup dan kering.");
+                "- Simpan di tempat yang tertutup dan kering.");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {

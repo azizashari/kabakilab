@@ -3,6 +3,7 @@ package mazizashari.kabakilab;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -10,6 +11,10 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.StyleSpan;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
@@ -119,7 +124,7 @@ public class PetunjukPemakaian extends AppCompatActivity {
         textView1.setText("KABAKI LAB merupakan katalog bahan kimia berbasis android yang disusun untuk mempermudah pencarian bahan kimia yang tersedia di seluruh Laboratorium Pendidikan Teknologi Agroindustri. Adanya KABAKI LAB dapat membantu seluruh civitas akademik program studi untuk mencari dan mengetahui identitas bahan kimia yang tersedia di laboratorium melalui telepon genggam/gawai android yang dimiliki. \n\n" +
                 "Adapun petunjuk pemakaian KABAKI LAB adalah sebagai berikut.");
 
-        TextView textView2 = (TextView) findViewById(R.id.textView2);
+        /*TextView textView2 = (TextView) findViewById(R.id.textView2);
         textView2.setText("1. Pilih menu Petunjuk Pemakaian untuk mengetahui cara pemakaian KABAKI LAB.\n\n" +
                 "2. Pilihlah menu Mulai untuk memulai pencarian nama bahan kimia.\n\n" +
                 "3. Tuliskan nama bahan kimia pada kolom Pencarian\n\n" +
@@ -127,6 +132,27 @@ public class PetunjukPemakaian extends AppCompatActivity {
                 "5. Identitas dan keterangan tentang bahan kimia yang dicari dapat dilihat setelah memilih nama bahan kimia tersebut.\n\n" +
                 "6. Apabila ingin kembali melakukan pencarian, tekan tombol Kembali pada telepon genggam/gawai android.\n\n" +
                 "7. Untuk mempermudah pembacaan skala bahaya bahan kimia, berikut pengertian dari skala bahaya bahan kimia:\n\n");
+*/
+        TextView textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(Html.fromHtml("1. Pilih menu <b>Petunjuk Pemakaian</b> untuk mengetahui cara pemakaian KABAKI LAB."));
+
+        TextView textView3 = (TextView) findViewById(R.id.textView3);
+        textView3.setText(Html.fromHtml("2. Pilihlah menu <b>Mulai</b> untuk memulai pencarian nama bahan kimia."));
+
+        TextView textView4 = (TextView) findViewById(R.id.textView4);
+        textView4.setText(Html.fromHtml("3. Tuliskan nama bahan kimia pada kolom <b>Pencarian</b>"));
+
+        TextView textView5 = (TextView) findViewById(R.id.textView5);
+        textView5.setText("4. Apabila sudah ditemukan daftar bahan kimia, kemudian pilih nama bahan kimia yang dicari.\n\n" +
+                            "5. Identitas dan keterangan tentang bahan kimia yang dicari dapat dilihat setelah memilih nama bahan kimia tersebut.");
+
+        TextView textView6 = (TextView) findViewById(R.id.textView6);
+        textView6.setText(Html.fromHtml("6. Apabila ingin kembali melakukan pencarian, tekan tombol <b>Kembali ( < ) </b> pada telepon genggam/gawai android."));
+
+        TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("7. Untuk mempermudah pembacaan skala bahaya bahan kimia, berikut pengertian dari skala bahaya bahan kimia:\n");
+
+
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {

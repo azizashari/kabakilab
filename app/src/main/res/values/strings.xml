@@ -84,7 +84,9 @@
     <string name="kat19">C<sub><small>6</small></sub>H<sub><small>5</small></sub>Na<sub><small>3</small></sub>O<sub><small>7</small></sub></string>
 
     <string name="kat2">CaCl<sub><small>2</small></sub></string>
-    <string name="kat20">(NH4)<sub><small>2</small></sub>SO<sub><small>4</small></sub></string>
+    <string name="kat20">NaOH</string>
+    <string name="kat21">HCl</string>
+    <string name="kat22">(NH<sub><small>4</small></sub>)<sub><small>2</small></sub>SO<sub><small>4</small></sub></string>
     <string name="kat23">α-C<sub><small>10</small></sub>H<sub><small>7</small></sub>OH</string>
     <string name="kat24">BaCl<sub><small>2</small></sub></string>
     <string name="kat25">C<sub><small>21</small></sub>H<sub><small>14</small></sub>Br<sub><small>4</small></sub>O<sub><small>5</small></sub>S</string>
@@ -115,7 +117,7 @@
     <string name="kat5">FeSO<sub><small>4</small></sub>.7H<sub><small>2</small></sub>O</string>
     <string name="kat50">C<sub><small>25</small></sub>H<sub><small>30</small></sub>CIN<sub><small>3</small></sub></string>
     <string name="kat53">C<sub><small>6</small></sub>H<sub><small>12</small></sub>O<sub><small>6</small></sub></string>
-    <string name="kat54">C<sub><small>7</small></sub>H<sub><small>124</small></sub>O<sub><small>9</small></sub>N<sub><small>24</small></sub></string>
+    <string name="kat54">C<sub><small>76</small></sub>H<sub><small>124</small></sub>O<sub><small>9</small></sub>N<sub><small>24</small></sub></string>
     <string name="kat56">C<sub><small>12</small></sub>H<sub><small>22</small></sub>O<sub><small>11</small></sub>.H<sub><small>2</small></sub>O</string>
     <string name="kat57">C<sub><small>12</small></sub>H<sub><small>22</small></sub>O<sub><small>11</small></sub>.H<sub><small>2</small></sub>O</string>
     <string name="kat58">HPO<sub><small>3</small></sub></string>

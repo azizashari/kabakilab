@@ -134,7 +134,7 @@ public class katalog30 extends AppCompatActivity {
         textView14.setText("* Jika tertelan");
 
         TextView textView15 = (TextView) findViewById(R.id.textView15);
-        textView15.setText("- Jangan memaksakan untuk muntah kecuali jika diarahkan oleh petugas medis. Jangan memberikan apapun melalui mulut apabila korban dalam keadaan tidak sadarkan diri. Longgarkan pakaian korban seperti kerah, dasi dan ikat pinggang.\n" +
+        textView15.setText("- Jangan memaksakan untuk muntah kecuali jika diarahkan oleh petugas medis. Jangan memberikan apa pun melalui mulut apabila korban dalam keadaan tidak sadarkan diri. Longgarkan pakaian korban seperti kerah, dasi dan ikat pinggang.\n" +
                 "- Jika tertelan dalam jumlah yang banyak, segera hubungi medis.");
 
         String boldText16 = "Penanganan dan penyimpanan bahan";
@@ -148,7 +148,7 @@ public class katalog30 extends AppCompatActivity {
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
                 "- Hindari kontak dengan kulit dan mata. Cuci tangan setelah bekerja dengan bahan tersebut.\n" +
                 "- Jauhkan dari sumber panas dan api.\n" +
-                "- Simpan ditempat yang tertutup dan kering.\n" +
+                "- Simpan di tempat yang tertutup dan kering.\n" +
                 "- Jauhkan dari zat pengoksidasi");
     }
 

@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:text="Petunjuk Pemakaian"
                     android:textAlignment="center"
-                    android:textColor="@color/textColor"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 

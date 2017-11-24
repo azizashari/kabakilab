@@ -97,7 +97,7 @@ public class katalog48 extends AppCompatActivity {
         textView4.setText(str4);
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        textView5.setText("- Dapat menyebabkan iritasi mata mata, saluran pencernaan dan saluran pernapasan.");
+        textView5.setText("- Dapat menyebabkan iritasi mata, saluran pencernaan dan saluran pernapasan.");
 
         /*TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("* Skala bahaya");
@@ -134,7 +134,7 @@ public class katalog48 extends AppCompatActivity {
         textView14.setText("* Jika tertelan");
 
         TextView textView15 = (TextView) findViewById(R.id.textView15);
-        textView15.setText("- Jangan memaksakan untuk muntah kecuali jika diarahkan oleh petugas medis. Jangan memberikan apapun melalui mulut apabila korban dalam keadaan tidak sadarkan diri. Longgarkan pakaian korban seperti kerah, dasi dan ikat pinggang.\n" +
+        textView15.setText("- Jangan memaksakan untuk muntah kecuali jika diarahkan oleh petugas medis. Jangan memberikan apa pun melalui mulut apabila korban dalam keadaan tidak sadarkan diri. Longgarkan pakaian korban seperti kerah, dasi dan ikat pinggang.\n" +
                 "- Jika tertelan dalam jumlah yang banyak, segera hubungi medis.");
 
         String boldText16 = "Penanganan dan penyimpanan bahan";
@@ -146,7 +146,7 @@ public class katalog48 extends AppCompatActivity {
 
         TextView textView17 = (TextView) findViewById(R.id.textView17);
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan).\n" +
-                "- Simpan ditempat yang tertutup, kering dan berventilasi cukup. Bahan kimia bersifat higroskopis dan sensitif terhadap uap air.");
+                "- Simpan di tempat yang tertutup, kering dan berventilasi cukup. Bahan kimia bersifat higroskopis dan sensitif terhadap uap air.");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {

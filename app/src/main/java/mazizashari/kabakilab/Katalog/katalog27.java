@@ -105,7 +105,7 @@ public class katalog27 extends AppCompatActivity {
 
         TextView textView7 = (TextView) findViewById(R.id.textView7);
         textView7.setText("- Bahaya kesehatan : 2\n" +
-                "- Bahaya kemudahan terbakar : 1\n"+
+                "- Bahaya kemudahan terbakar : 0\n"+
                 "- Bahaya reaktivitas : 0\n" +
                 "- Bahaya khusus lainnya : -");
 
@@ -135,7 +135,7 @@ public class katalog27 extends AppCompatActivity {
         textView14.setText("* Jika tertelan");
 
         TextView textView15 = (TextView) findViewById(R.id.textView15);
-        textView15.setText("- Jangan memaksakan untuk muntah kecuali jika diarahkan oleh petugas medis. Jangan memberikan apapun melalui mulut apabila korban dalam keadaan tidak sadarkan diri. Longgarkan pakaian korban seperti kerah, dasi dan ikat pinggang.\n" +
+        textView15.setText("- Jangan memaksakan untuk muntah kecuali jika diarahkan oleh petugas medis. Jangan memberikan apa pun melalui mulut apabila korban dalam keadaan tidak sadarkan diri. Longgarkan pakaian korban seperti kerah, dasi dan ikat pinggang.\n" +
                 "- Jika tertelan dalam jumlah yang banyak, segera hubungi medis.");
 
         String boldText16 = "Penanganan dan penyimpanan bahan";
