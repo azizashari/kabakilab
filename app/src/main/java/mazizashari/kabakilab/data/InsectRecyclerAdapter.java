@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
@@ -116,6 +117,13 @@ public class InsectRecyclerAdapter extends
         }
 
         private void bind(final Insect insect, final int position) {
+
+            Typeface custom_font = Typeface.createFromAsset(itemView.getContext().getAssets(),  "fonts/FRADMCN.TTF");
+
+            tv_no_reagen.setTypeface(custom_font);
+            tv_nama_reagen.setTypeface(custom_font);
+            tv_rumus_kimia.setTypeface(custom_font);
+
             if(position % 2 == 0) {
                 boxReagen.setBackgroundColor(0xFFFFFFFF);
             }else{

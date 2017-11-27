@@ -22,6 +22,7 @@ import android.widget.TextView;
 public class PetunjukPemakaian extends AppCompatActivity {
 
     TextView ek1b1,ek2b1,ek3b1,ek1b2,ek2b2,ek3b2,ek1b3,ek2b3,ek3b3,ek1b4,ek2b4,ek3b4,ek1b5,ek2b5,ek3b5;
+    TextView textView1, textView2, textView3, textView4, textView5, textView6, textView7, textView8;
     public static final String MyPREFERENCES = "MyPrefs" ;
     public static final String k1b1 = "k1b1";
     public static final String k2b1 = "k2b1";
@@ -49,6 +50,17 @@ public class PetunjukPemakaian extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_petunjuk_pemakaian);
+
+        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/HATTENT.TTF");
+
+        textView1.setTypeface(custom_font);
+        textView2.setTypeface(custom_font);
+        textView3.setTypeface(custom_font);
+        textView4.setTypeface(custom_font);
+        textView5.setTypeface(custom_font);
+        textView6.setTypeface(custom_font);
+        textView7.setTypeface(custom_font);
+        textView8.setTypeface(custom_font);
 
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
         collapsingToolbarLayout.setTitle("Petunjuk Pemakaian");
