@@ -35,7 +35,7 @@
                 app:layout_collapseMode="parallax">
 
                 <TextView
-                    android:id="@+id/ka"
+                    android:id="@+id/ka67"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Lead (II) Acetate Triydrate"
@@ -45,7 +45,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/baki"
+                    android:id="@+id/baki67"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/kat7"

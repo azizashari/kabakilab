@@ -35,7 +35,7 @@
                 app:layout_collapseMode="parallax">
 
                 <TextView
-                    android:id="@+id/ka"
+                    android:id="@+id/ka23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="3,5-Dinitrosalicylic acid"
@@ -45,7 +45,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/baki"
+                    android:id="@+id/baki23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:minLines="2"

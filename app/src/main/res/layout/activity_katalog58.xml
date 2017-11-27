@@ -35,7 +35,7 @@
                 app:layout_collapseMode="parallax">
 
                 <TextView
-                    android:id="@+id/ka"
+                    android:id="@+id/ka54"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Metha Phosphoric Acid"
@@ -45,7 +45,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/baki"
+                    android:id="@+id/baki54"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/kat58"
