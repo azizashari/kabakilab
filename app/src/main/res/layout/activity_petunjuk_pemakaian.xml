@@ -37,14 +37,14 @@
                 app:layout_collapseMode="parallax">
 
                 <TextView
-                    android:id="@+id/ka"
+                    android:id="@+id/petunjuk"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Petunjuk Pemakaian"
 
                     android:textAlignment="center"
                     android:textColor="@color/colorPrimaryDark"
-                      android:textSize="40sp"
+                    android:textSize="40sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
