@@ -36,7 +36,7 @@
             android:text="KATALOG"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="30sp" />
+         android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView21"
@@ -50,7 +50,7 @@
             android:text="BAHAN KIMIA"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="30sp"
+         android:textSize="30sp"
             android:textStyle="bold" />
 
         <LinearLayout
