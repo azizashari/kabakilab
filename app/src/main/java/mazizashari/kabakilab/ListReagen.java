@@ -27,8 +27,8 @@ import mazizashari.kabakilab.data.InsectRecyclerAdapter;
 
 public class ListReagen extends AppCompatActivity {
 
-    @BindView(R.id.fab)
-    FloatingActionButton fab;
+    //@BindView(R.id.fab)
+   // FloatingActionButton fab;
 
     @BindView(R.id.listReagen)
     RecyclerView listReagen;
@@ -45,14 +45,14 @@ public class ListReagen extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        fab.setOnClickListener(new View.OnClickListener() {
+        /*fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(ListReagen.this, MainActivity.class);
                 startActivity(i);
                 finish();
             }
-        });
+        });*/
 
         loadData("");
 

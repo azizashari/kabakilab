@@ -271,6 +271,10 @@
     {
       "namaReagen": "Sodium Thiosulfate",
       "rumusKimia": "Na2S2O3"
+    },
+    {
+      "namaReagen": "Sulfuric Acid",
+      "rumusKimia": "MgSO4"
     }
   ]
 }
