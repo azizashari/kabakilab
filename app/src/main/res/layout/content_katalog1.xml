@@ -21,10 +21,10 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
             android:textSize="15sp">
 
         </TextView>
+
 
         <TextView
             android:id="@+id/textView2"
@@ -33,8 +33,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
-            android:textSize="15sp"><!--android:text="@string/large_text">-->
+            android:textSize="15sp">
         </TextView>
 
         <TextView
@@ -45,8 +44,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:text=""
-            android:textColor="@color/textColor"
-            android:textSize="15sp"><!--android:text="@string/large_text">-->
+            android:textSize="15sp">
         </TextView>
 
         <TextView
@@ -57,7 +55,6 @@
             android:layout_marginBottom="0dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -70,7 +67,7 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="10dp"
             android:paddingLeft="15dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -81,7 +78,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -93,7 +90,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:paddingLeft="15dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -104,7 +101,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -116,7 +113,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:paddingLeft="15dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -127,7 +124,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -139,7 +136,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:paddingLeft="15dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -150,7 +147,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -162,7 +159,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:paddingLeft="15dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -173,7 +170,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -185,7 +182,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:paddingLeft="15dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -196,7 +193,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -208,7 +205,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:paddingLeft="15dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="15sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -219,7 +216,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="14sp"><!--android:text="@string/large_text">-->
         </TextView>
 
@@ -230,7 +227,7 @@
             android:layout_margin="3sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:textColor="@color/textColor"
+          
             android:textSize="14sp"><!--android:text="@string/large_text">-->
         </TextView>
 

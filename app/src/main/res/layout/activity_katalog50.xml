@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:text="50\nCrystal Violet"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/yellow"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/kat50"
                     android:minLines="2"
-                    android:textColor="@color/white"
+                    android:textColor="@color/yellow"
                     android:textAlignment="center"
                     android:textSize="15sp" />
 
