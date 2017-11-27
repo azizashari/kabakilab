@@ -39,10 +39,10 @@
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="59\nMRS (De Man, Rogosa and Sharpe) Agar"
+                    android:text="MRS (De Man, Rogosa and Sharpe) Agar"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
-                    android:textSize="30sp"
+                 android:textSize="40sp"
                     android:textStyle="bold" />
 
                 <TextView

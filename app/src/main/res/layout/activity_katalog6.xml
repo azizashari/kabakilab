@@ -42,7 +42,7 @@
                     android:text="6\nIron (III) Chloride"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
-                    android:textSize="30sp"
+                 android:textSize="40sp"
                     android:textStyle="bold" />
 
                 <TextView

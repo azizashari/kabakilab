@@ -39,17 +39,17 @@
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="7\nLead (II) Acetate Triydrate"
+                    android:text="Lead (II) Acetate Triydrate"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
-                    android:textSize="30sp"
+                 android:textSize="40sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pb(CH3COO)2.3H2O"
+                    android:text="@string/kat7"
                     android:textColor="@color/yellow"
                     android:textAlignment="center"
                     android:textSize="15sp" />

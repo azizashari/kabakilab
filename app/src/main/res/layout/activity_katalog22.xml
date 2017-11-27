@@ -39,10 +39,10 @@
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="22\nAmmonium Sulfate"
+                    android:text="Ammonium Sulfate"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
-                    android:textSize="30sp"
+                 android:textSize="40sp"
                     android:textStyle="bold" />
 
                 <TextView
