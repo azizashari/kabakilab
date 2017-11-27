@@ -23,6 +23,7 @@
             app:contentScrim="@color/toolbarBackground"
             app:expandedTitleMarginEnd="64dp"
             app:expandedTitleMarginStart="48dp"
+
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <LinearLayout
