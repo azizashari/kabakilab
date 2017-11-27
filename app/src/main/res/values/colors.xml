@@ -4,9 +4,9 @@
     <color name="colorPrimaryDark">#080808</color>
     <color name="colorAccent">#ffffff</color>
     <color name="backgroundSplash">#f5ebbf</color>
-    <color name="backgroundButton">#46424242</color>
-    <color name="textColor">#e40082</color>
-    <color name="noColor">#ccc18b</color>
+    <color name="backgroundButton">#e31d1d1d</color>
+    <color name="textColor">#0e0e0e</color>
+    <color name="noColor">#0b0b0b</color>
     <color name="white">#fefefe</color>
     <color name="yellow">#ffff00</color>
     <color name="green">#008000</color>

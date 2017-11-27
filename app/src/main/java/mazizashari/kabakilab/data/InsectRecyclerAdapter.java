@@ -78,6 +78,7 @@ import mazizashari.kabakilab.Katalog.katalog65;
 import mazizashari.kabakilab.Katalog.katalog66;
 import mazizashari.kabakilab.Katalog.katalog67;
 import mazizashari.kabakilab.Katalog.katalog68;
+import mazizashari.kabakilab.Katalog.katalog69;
 import mazizashari.kabakilab.Katalog.katalog7;
 import mazizashari.kabakilab.Katalog.katalog8;
 import mazizashari.kabakilab.Katalog.katalog9;
@@ -116,9 +117,9 @@ public class InsectRecyclerAdapter extends
 
         private void bind(final Insect insect, final int position) {
             if(position % 2 == 0) {
-                boxReagen.setBackgroundColor(0xFFFEEACA);
-            }else{
                 boxReagen.setBackgroundColor(0xFFFFFFFF);
+            }else{
+                boxReagen.setBackgroundColor(0xFFFFFF00);
             }
             tv_no_reagen.setText(String.valueOf(position+1));
             tv_nama_reagen.setText(insect.namaReagen);
@@ -415,6 +416,10 @@ public class InsectRecyclerAdapter extends
                         ((Activity) context).finish();
                     } else if (insect.idReagen == 68) {
                         intent = new Intent(itemView.getContext(), katalog68.class);
+                        itemView.getContext().startActivity(intent);
+                        ((Activity) context).finish();
+                    } else if (insect.idReagen == 69) {
+                        intent = new Intent(itemView.getContext(), katalog69.class);
                         itemView.getContext().startActivity(intent);
                         ((Activity) context).finish();
                     }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/backround_main"
     tools:context="mazizashari.kabakilab.MainActivity">
 
     <ImageView
@@ -38,6 +38,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/button_shape"
         android:text="MULAI"
+        android:textColor="@color/yellow"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/bPetunjuk"
         app:layout_constraintHorizontal_bias="0.502"
@@ -52,6 +53,7 @@
         android:layout_marginBottom="32dp"
         android:background="@drawable/button_shape"
         android:text="PETUNJUK PEMAKAIAN"
+        android:textColor="@color/yellow"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
