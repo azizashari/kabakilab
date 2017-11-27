@@ -12,7 +12,7 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
-        android:background="@drawable/gear"
+        android:background="@drawable/pp"
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
@@ -41,9 +41,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Petunjuk Pemakaian"
+
                     android:textAlignment="center"
                     android:textColor="@color/colorPrimaryDark"
-                 android:textSize="40sp"
+                      android:textSize="40sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
