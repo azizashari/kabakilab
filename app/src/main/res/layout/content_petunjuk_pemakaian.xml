@@ -765,7 +765,21 @@
                     android:textSize="13sp" />
 
             </TableRow>
+
         </TableLayout>
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

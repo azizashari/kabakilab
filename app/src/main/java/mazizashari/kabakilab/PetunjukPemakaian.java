@@ -157,6 +157,9 @@ public class PetunjukPemakaian extends AppCompatActivity {
 
         TextView textView7 = (TextView) findViewById(R.id.textView7);
         textView7.setText("7. Untuk mempermudah pembacaan skala bahaya bahan kimia, berikut pengertian dari skala bahaya bahan kimia:\n");
+
+        TextView textView30 = (TextView) findViewById(R.id.textView30);
+        textView30.setText("\n\n\n\n");
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
