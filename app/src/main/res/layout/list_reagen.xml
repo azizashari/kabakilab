@@ -78,7 +78,7 @@
                 android:inputType="textPersonName"
                 android:nextFocusLeft="@id/searchReagen"
                 android:nextFocusUp="@id/searchReagen"
-                android:textColor="@color/white"
+                android:textColor="@color/yellow"
                 android:textColorHint="@color/white"
                 android:textSize="12sp" />
 

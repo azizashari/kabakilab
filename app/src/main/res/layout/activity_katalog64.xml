@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:text="64\nPDA (Potato Dextrose Agar)"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/yellow"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=""
-                    android:textColor="@color/white"
+                    android:textColor="@color/yellow"
                     android:textAlignment="center"
                     android:textSize="15sp" />
 

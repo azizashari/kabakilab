@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:text="13\nPotassium Oxalate"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/yellow"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/kat13"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/yellow"
                     android:textSize="15sp" />
 
             </LinearLayout>
