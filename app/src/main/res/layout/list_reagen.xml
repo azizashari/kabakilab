@@ -36,7 +36,7 @@
             android:fontFamily="sans-serif"
             android:text="KATALOG"
             android:textAlignment="center"
-            android:textColor="@android:color/white"
+            android:textColor="@color/yellow"
             android:textSize="30sp" />
 
         <TextView
@@ -50,7 +50,7 @@
             android:fontFamily="sans-serif"
             android:text="BAHAN KIMIA"
             android:textAlignment="center"
-            android:textColor="@android:color/white"
+            android:textColor="@color/yellow"
             android:textSize="30sp"
             android:textStyle="bold" />
 
