@@ -63,8 +63,8 @@ public class ListReagen extends AppCompatActivity {
         });*/
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/HATTEN.TTF");
 
-        //ka.setTypeface(custom_font);
-        //baki.setTypeface(custom_font);
+        ka.setTypeface(custom_font);
+        baki.setTypeface(custom_font);
 
         loadData("");
 
