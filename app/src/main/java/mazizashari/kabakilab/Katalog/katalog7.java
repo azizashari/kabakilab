@@ -74,28 +74,29 @@ public class katalog7 extends AppCompatActivity {
         SpannableString str = new SpannableString(boldText + normalText);
         str.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText(str);
+        textView1.setText(Html.fromHtml("<b><font color=#008000>Lokasi</font><br/></b>Lemari A1"));
+
 
         String boldText2 = "Spesifikasi\n";
         String normalText2 = "Pro Analysis";
         SpannableString str2 = new SpannableString(boldText2 + normalText2);
         str2.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText2.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(Html.fromHtml("<b>Spesifikasi</b> <br/> <i>Pro Analysis</i>"));
+        textView2.setText(Html.fromHtml("<b><font color=#008000>Spesifikasi</font><br/></b> <i>Pro Analysis</i>"));
 
         String boldText3 = "Merek\n";
         String normalText3 = "Sigma-Aldrich";
         SpannableString str3 = new SpannableString(boldText3 + normalText3);
         str3.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText3.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView3 = (TextView) findViewById(R.id.textView3);
-        textView3.setText(str3);
+        textView3.setText(Html.fromHtml("<b><font color=#008000>Merek</font><br/></b>Sigma-Aldrich"));
 
         String boldText4 = "Identifikasi bahaya\n";
         String normalText4 = "* Efek terhadap kesehatan";
         SpannableString str4 = new SpannableString(boldText4 + normalText4);
         str4.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText4.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView4 = (TextView) findViewById(R.id.textView4);
-        textView4.setText(str4);
+        textView4.setText(Html.fromHtml("<b><font color=#008000>Identifikasi bahaya</font><br/></b>* Efek terhadap kesehatan"));
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
         textView5.setText("- Berbahaya jika terjadi kontak dengan kulit, mata, saluran pencernaan dan saluran pencernaan.\n");
@@ -114,7 +115,8 @@ public class katalog7 extends AppCompatActivity {
         SpannableString str8 = new SpannableString(boldText8 + normalText8);
         str8.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText8.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView8 = (TextView) findViewById(R.id.textView8);
-        textView8.setText(str8);
+        textView8.setText(Html.fromHtml("<b><font color=#008000>Pertolongan pertama pada kecelakaan</font><br/></b>* Jika terkena mata"));
+
 
         TextView textView9 = (TextView) findViewById(R.id.textView9);
         textView9.setText("- Periksa mata dan lepaskan lensa kontak. Segera basuh mata dengan banyak air sedikitnya 15 menit. Segera hubungi medis.");
@@ -143,7 +145,7 @@ public class katalog7 extends AppCompatActivity {
         SpannableString str16 = new SpannableString(boldText16 + normalText16);
         str16.setSpan(new StyleSpan(Typeface.BOLD), 0, boldText16.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView textView16 = (TextView) findViewById(R.id.textView16);
-        textView16.setText(str16);
+        textView16.setText(Html.fromHtml("<b><font color=#008000>Penanganan dan penyimpanan bahan</b>"));
 
         TextView textView17 = (TextView) findViewById(R.id.textView17);
         textView17.setText("- Pakailah pakaian pelindung yang sesuai (jas lab, masker dan sarung tangan.\n" +
