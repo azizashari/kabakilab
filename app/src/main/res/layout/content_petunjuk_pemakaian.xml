@@ -17,7 +17,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:orientation="vertical"
-        android:paddingBottom="10dp"
+        android:paddingBottom="20dp"
         android:weightSum="1">
 
         <TextView
@@ -104,7 +104,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-   <TextView
+        <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -156,9 +156,9 @@
                     android:background="@color/yellow"
                     android:gravity="center"
                     android:text=" Nilai "
-                    android:textStyle="bold"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -168,9 +168,9 @@
                     android:background="@color/yellow"
                     android:gravity="center"
                     android:text="Bahaya terhadap kesehatan "
-                    android:textStyle="bold"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </TableRow>
 
@@ -373,9 +373,9 @@
                     android:background="@color/yellow"
                     android:gravity="center"
                     android:text=" Nilai "
-                    android:textStyle="bold"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -385,9 +385,9 @@
                     android:background="@color/yellow"
                     android:gravity="center"
                     android:text="Bahaya kemudahan terbakar"
-                    android:textStyle="bold"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </TableRow>
 
@@ -591,9 +591,9 @@
                     android:background="@color/yellow"
                     android:gravity="center"
                     android:text=" Nilai "
-                    android:textStyle="bold"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -603,9 +603,9 @@
                     android:background="@color/yellow"
                     android:gravity="center"
                     android:text="Bahaya reaktivitas "
-                    android:textStyle="bold"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </TableRow>
 
@@ -767,18 +767,6 @@
             </TableRow>
 
         </TableLayout>
-
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_column="0"
-            android:layout_margin="1dp"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text=""
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="18sp" />
 
     </LinearLayout>
 

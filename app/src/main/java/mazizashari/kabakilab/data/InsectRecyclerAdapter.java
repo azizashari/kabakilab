@@ -118,7 +118,7 @@ public class InsectRecyclerAdapter extends
 
         private void bind(final Insect insect, final int position) {
 
-            Typeface custom_font = Typeface.createFromAsset(itemView.getContext().getAssets(),  "fonts/FRADMCN.TTF");
+            //Typeface custom_font = Typeface.createFromAsset(itemView.getContext().getAssets(),  "fonts/FRADMCN.TTF");
 
             if(position % 2 == 0) {
                 boxReagen.setBackgroundColor(0xFFFFFFFF);
@@ -145,9 +145,9 @@ public class InsectRecyclerAdapter extends
                 tv_rumus_kimia.setText(rumusKimia);
             }
 
-            tv_no_reagen.setTypeface(custom_font);
-            tv_nama_reagen.setTypeface(custom_font);
-            tv_rumus_kimia.setTypeface(custom_font);
+            //tv_no_reagen.setTypeface(custom_font);
+            //tv_nama_reagen.setTypeface(custom_font);
+            //tv_rumus_kimia.setTypeface(custom_font);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
